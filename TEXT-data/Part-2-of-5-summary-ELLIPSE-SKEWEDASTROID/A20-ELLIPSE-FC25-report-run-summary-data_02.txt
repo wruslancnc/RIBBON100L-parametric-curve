@@ -1,0 +1,59 @@
+# DTStamp_FHdata_02 2023-06-04 21:35:16 851704603 
+# Testing data 02 
+Write run report statistics to screen and file. 
+
+A20-ELL (1) EPSILON PROCESSING ERRORS 
+A20-ELL STEP 1 ERRORS 
+A20-ELL count_step1_ERROR_1 =          0 
+A20-ELL count_step1_ERROR_2 =          0 
+A20-ELL STEP 2 ERRORS 
+A20-ELL count_step2_ERROR_1 =          0 
+A20-ELL count_step2_ERROR_2 =          0 
+A20-ELL count_step2_ERROR_3 =          0 
+A20-ELL count_step2_ERROR_4 =          0 
+
+A20-ELL (2) EPSILON COUNT RANGE VALUE STATISTICS 
+A20-ELL cnt_eps_above_10E_6             =          0  (0.000000 %) 
+A20-ELL cnt_eps_betwn_10E_7_upto_10E_6  =       9448  (100.000000 %) 
+A20-ELL cnt_eps_betwn_10E_8_upto_10E_7  =          0  (0.000000 %) 
+A20-ELL cnt_eps_betwn_10E_9_upto_10E_8  =          0  (0.000000 %) 
+A20-ELL cnt_eps_betwn_10E_10_upto_10E_9 =          0  (0.000000 %) 
+A20-ELL cnt_eps_below_10E_10            =          0  (0.000000 %) 
+A20-ELL cnt_eps_total_points processed  =       9448  (100.000000 %) 
+
+A20-ELL (3) INTERPOLATED POINT STATISTICS 
+A20-ELL Count before step1, epsilon is already    below upper bound = 7046 (  74.576630  %) 
+A20-ELL Count during step1, pushdown epsilon to   below upper bound = 2402 (  25.423370  %) 
+A20-ELL After step1 the interpolated points count below upper bound = 9448 (total interpolated points) 
+A20-ELL Count during step2, pushup into range (lower , upper) bound = 0 (total pushup points) 
+
+A20-ELL (4) ADJUST (INCR/DECR) CURR_FRATE TO CALCULATED CURR_FRATE_LIMIT 
+A20-ELL Count_rising_s_curve_points     = 370 	(    3.916173 %) 
+A20-ELL Count_frate_islower_fratelimit  = 6120 	(   64.775614 %) 
+A20-ELL Count_frate_isequal_fratelimit  = 0 	(    0.000000 %) 
+A20-ELL Count_frate_ishigher_fratelimit = 2589 	(   27.402625 %) 
+A20-ELL Count_falling_s_curve_points    = 369 	(    3.905588 %) 
+A20-ELL Total interpolated points       = 9448 	(  100.000000 %) 
+
+A20-ELL (5) CHORD ERROR (CURR_EPS) VARIABLE VALUE STATISTICS 
+A20-ELL eps (min_eps, avg_eps, max_eps, sum_eps) = ( 0.000000e+00, 6.274604e-07, 9.999990e-07 5.927619e-03 )
+A20-ELL At min_eps (line_mineps, u_mineps, x_mineps, y_mineps) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A20-ELL At max_eps (line_maxeps, u_maxeps, x_maxeps, y_maxeps) = (   4251 4.239655e-01 5.057496e+00 -4.528988e+01 )
+
+A20-ELL (6) RADIUS OF CURVATURE (CURR_RHO) VARIABLE VALUE STATISTICS 
+A20-ELL rho (min, avg, max, sum) = ( 0.000000e+00, 1.250207e+02, 2.364545e+02 1.181070e+06 )
+A20-ELL At min_rho (line_minrho, u_minrho, x_minrho, y_minrho) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A20-ELL At max_rho (line_maxrho, u_maxrho, x_maxrho, y_maxrho) = (   7033 7.500086e-01 -1.100000e+01 2.744454e-03 )
+
+A20-ELL (7) TANGENTIAL ACCELERATION (CURR_TANG_ACCN) VARIABLE VALUE STATISTICS 
+A20-ELL tangaccn (min, avg, max, sum) = ( -3.033580e+01, 4.466662e-01, 3.033976e+01 4.219655e+03 )
+A20-ELL At min_tangaccn (line_mintangaccn, u_mintangaccn, x_mintangaccn, y_mintangaccn) = (   8725 9.033968e-01 -6.274246e+00 4.189022e+01 )
+A20-ELL At max_tangaccn (line_maxtangaccn, u_maxtangaccn, x_maxtangaccn, y_maxtangaccn) = (    728 9.730315e-02 6.313922e+00 4.176187e+01 )
+
+A20-ELL (8) FEEDRATE (CURR_FRATE) VARIABLE VALUE STATISTICS 
+A20-ELL frate (min, avg, max, sum) = ( 0.000000e+00, 1.965192e+01, 2.500000e+01 1.856516e+05 )
+A20-ELL At min_frate (line_minfrate, u_minfrate, x_minfrate, y_minfrate) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A20-ELL At max_frate (line_maxfrate, u_maxfrate, x_maxfrate, y_maxfrate) = (   6348 6.955632e-01 -1.036281e+01 -1.710573e+01 )
+
+# Testing data 01 
+# DTStamp_FHdata_02 2023-06-04 21:35:25 129177150 

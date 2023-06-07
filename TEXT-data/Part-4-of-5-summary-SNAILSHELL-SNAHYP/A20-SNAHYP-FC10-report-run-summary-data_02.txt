@@ -1,0 +1,59 @@
+# DTStamp_FHdata_02 2023-06-05 10:32:22 240568397 
+# Testing data 02 
+Write run report statistics to screen and file. 
+
+A20-SNAHYP (1) EPSILON PROCESSING ERRORS 
+A20-SNAHYP STEP 1 ERRORS 
+A20-SNAHYP count_step1_ERROR_1 =          0 
+A20-SNAHYP count_step1_ERROR_2 =          0 
+A20-SNAHYP STEP 2 ERRORS 
+A20-SNAHYP count_step2_ERROR_1 =          0 
+A20-SNAHYP count_step2_ERROR_2 =          0 
+A20-SNAHYP count_step2_ERROR_3 =          0 
+A20-SNAHYP count_step2_ERROR_4 =          0 
+
+A20-SNAHYP (2) EPSILON COUNT RANGE VALUE STATISTICS 
+A20-SNAHYP cnt_eps_above_10E_6             =          0  (0.000000 %) 
+A20-SNAHYP cnt_eps_betwn_10E_7_upto_10E_6  =       4106  (10.617501 %) 
+A20-SNAHYP cnt_eps_betwn_10E_8_upto_10E_7  =      24178  (62.520687 %) 
+A20-SNAHYP cnt_eps_betwn_10E_9_upto_10E_8  =      10388  (26.861812 %) 
+A20-SNAHYP cnt_eps_betwn_10E_10_upto_10E_9 =          0  (0.000000 %) 
+A20-SNAHYP cnt_eps_below_10E_10            =          0  (0.000000 %) 
+A20-SNAHYP cnt_eps_total_points processed  =      38672  (100.000000 %) 
+
+A20-SNAHYP (3) INTERPOLATED POINT STATISTICS 
+A20-SNAHYP Count before step1, epsilon is already    below upper bound = 37227 (  96.263446  %) 
+A20-SNAHYP Count during step1, pushdown epsilon to   below upper bound = 1445 (   3.736554  %) 
+A20-SNAHYP After step1 the interpolated points count below upper bound = 38672 (total interpolated points) 
+A20-SNAHYP Count during step2, pushup into range (lower , upper) bound = 0 (total pushup points) 
+
+A20-SNAHYP (4) ADJUST (INCR/DECR) CURR_FRATE TO CALCULATED CURR_FRATE_LIMIT 
+A20-SNAHYP Count_rising_s_curve_points     = 3177 	(    8.215246 %) 
+A20-SNAHYP Count_frate_islower_fratelimit  = 18305 	(   47.333988 %) 
+A20-SNAHYP Count_frate_isequal_fratelimit  = 0 	(    0.000000 %) 
+A20-SNAHYP Count_frate_ishigher_fratelimit = 14859 	(   38.423149 %) 
+A20-SNAHYP Count_falling_s_curve_points    = 2331 	(    6.027617 %) 
+A20-SNAHYP Total interpolated points       = 38672 	(  100.000000 %) 
+
+A20-SNAHYP (5) CHORD ERROR (CURR_EPS) VARIABLE VALUE STATISTICS 
+A20-SNAHYP eps (min_eps, avg_eps, max_eps, sum_eps) = ( 0.000000e+00, 7.361778e-08, 9.999987e-07 2.846873e-03 )
+A20-SNAHYP At min_eps (line_mineps, u_mineps, x_mineps, y_mineps) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A20-SNAHYP At max_eps (line_maxeps, u_maxeps, x_maxeps, y_maxeps) = (  32596 6.660216e-01 2.780533e+01 4.905280e+01 )
+
+A20-SNAHYP (6) RADIUS OF CURVATURE (CURR_RHO) VARIABLE VALUE STATISTICS 
+A20-SNAHYP rho (min, avg, max, sum) = ( 0.000000e+00, 3.969992e+02, 5.481351e+06 1.535236e+07 )
+A20-SNAHYP At min_rho (line_minrho, u_minrho, x_minrho, y_minrho) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A20-SNAHYP At max_rho (line_maxrho, u_maxrho, x_maxrho, y_maxrho) = (   6048 1.248466e-01 2.511807e+01 -3.874567e+01 )
+
+A20-SNAHYP (7) TANGENTIAL ACCELERATION (CURR_TANG_ACCN) VARIABLE VALUE STATISTICS 
+A20-SNAHYP tangaccn (min, avg, max, sum) = ( -3.884040e+01, -4.818742e-02, 3.708141e+01 -1.863456e+03 )
+A20-SNAHYP At min_tangaccn (line_mintangaccn, u_mintangaccn, x_mintangaccn, y_mintangaccn) = (  33378 7.670860e-01 3.011971e+01 -1.045571e+01 )
+A20-SNAHYP At max_tangaccn (line_maxtangaccn, u_maxtangaccn, x_maxtangaccn, y_maxtangaccn) = (  33271 7.537483e-01 3.003768e+01 -1.449202e+00 )
+
+A20-SNAHYP (8) FEEDRATE (CURR_FRATE) VARIABLE VALUE STATISTICS 
+A20-SNAHYP frate (min, avg, max, sum) = ( 0.000000e+00, 3.621055e+00, 1.000000e+01 1.400298e+05 )
+A20-SNAHYP At min_frate (line_minfrate, u_minfrate, x_minfrate, y_minfrate) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A20-SNAHYP At max_frate (line_maxfrate, u_maxfrate, x_maxfrate, y_maxfrate) = (  33321 7.599896e-01 3.008676e+01 -5.666198e+00 )
+
+# Testing data 01 
+# DTStamp_FHdata_02 2023-06-05 10:32:36 186969513 

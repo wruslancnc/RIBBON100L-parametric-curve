@@ -1,0 +1,59 @@
+# DTStamp_FHdata_02 2023-06-06 03:17:37 82661618 
+# Testing data 02 
+Write run report statistics to screen and file. 
+
+A23-SKWAST (1) EPSILON PROCESSING ERRORS 
+A23-SKWAST STEP 1 ERRORS 
+A23-SKWAST count_step1_ERROR_1 =          0 
+A23-SKWAST count_step1_ERROR_2 =          0 
+A23-SKWAST STEP 2 ERRORS 
+A23-SKWAST count_step2_ERROR_1 =          0 
+A23-SKWAST count_step2_ERROR_2 =          0 
+A23-SKWAST count_step2_ERROR_3 =          0 
+A23-SKWAST count_step2_ERROR_4 =          0 
+
+A23-SKWAST (2) EPSILON COUNT RANGE VALUE STATISTICS 
+A23-SKWAST cnt_eps_above_10E_6             =          0  (0.000000 %) 
+A23-SKWAST cnt_eps_betwn_10E_7_upto_10E_6  =          0  (0.000000 %) 
+A23-SKWAST cnt_eps_betwn_10E_8_upto_10E_7  =      46483  (100.000000 %) 
+A23-SKWAST cnt_eps_betwn_10E_9_upto_10E_8  =          0  (0.000000 %) 
+A23-SKWAST cnt_eps_betwn_10E_10_upto_10E_9 =          0  (0.000000 %) 
+A23-SKWAST cnt_eps_below_10E_10            =          0  (0.000000 %) 
+A23-SKWAST cnt_eps_total_points processed  =      46483  (100.000000 %) 
+
+A23-SKWAST (3) INTERPOLATED POINT STATISTICS 
+A23-SKWAST Count before step1, epsilon is already    below upper bound = 46483 ( 100.000000  %) 
+A23-SKWAST Count during step1, pushdown epsilon to   below upper bound = 0 (   0.000000  %) 
+A23-SKWAST After step1 the interpolated points count below upper bound = 46483 (total interpolated points) 
+A23-SKWAST Count during step2, pushup into range (lower , upper) bound = 0 (total pushup points) 
+
+A23-SKWAST (4) ADJUST (INCR/DECR) CURR_FRATE TO CALCULATED CURR_FRATE_LIMIT 
+A23-SKWAST Count_rising_s_curve_points     = 1470 	(    3.162446 %) 
+A23-SKWAST Count_frate_islower_fratelimit  = 31837 	(   68.491707 %) 
+A23-SKWAST Count_frate_isequal_fratelimit  = 0 	(    0.000000 %) 
+A23-SKWAST Count_frate_ishigher_fratelimit = 11707 	(   25.185552 %) 
+A23-SKWAST Count_falling_s_curve_points    = 1469 	(    3.160295 %) 
+A23-SKWAST Total interpolated points       = 46483 	(  100.000000 %) 
+
+A23-SKWAST (5) CHORD ERROR (CURR_EPS) VARIABLE VALUE STATISTICS 
+A23-SKWAST eps (min_eps, avg_eps, max_eps, sum_eps) = ( 0.000000e+00, 2.776587e-08, 7.229177e-08 1.290613e-03 )
+A23-SKWAST At min_eps (line_mineps, u_mineps, x_mineps, y_mineps) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A23-SKWAST At max_eps (line_maxeps, u_maxeps, x_maxeps, y_maxeps) = (   1864 6.405215e-02 2.403467e+00 7.789510e+01 )
+
+A23-SKWAST (6) RADIUS OF CURVATURE (CURR_RHO) VARIABLE VALUE STATISTICS 
+A23-SKWAST rho (min, avg, max, sum) = ( 0.000000e+00, 3.495769e+02, 8.016802e+05 1.624903e+07 )
+A23-SKWAST At min_rho (line_minrho, u_minrho, x_minrho, y_minrho) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A23-SKWAST At max_rho (line_maxrho, u_maxrho, x_maxrho, y_maxrho) = (  42643 8.750055e-01 -1.414067e+01 3.535899e+01 )
+
+A23-SKWAST (7) TANGENTIAL ACCELERATION (CURR_TANG_ACCN) VARIABLE VALUE STATISTICS 
+A23-SKWAST tangaccn (min, avg, max, sum) = ( -3.222414e+01, 4.964828e-02, 3.263204e+01 2.307751e+03 )
+A23-SKWAST At min_tangaccn (line_mintangaccn, u_mintangaccn, x_mintangaccn, y_mintangaccn) = (  19466 3.766045e-01 1.371662e+01 -3.642990e+01 )
+A23-SKWAST At max_tangaccn (line_maxtangaccn, u_maxtangaccn, x_maxtangaccn, y_maxtangaccn) = (  42420 8.696472e-01 -1.559167e+01 3.185133e+01 )
+
+A23-SKWAST (8) FEEDRATE (CURR_FRATE) VARIABLE VALUE STATISTICS 
+A23-SKWAST frate (min, avg, max, sum) = ( 0.000000e+00, 5.603063e+00, 2.500000e+01 2.604416e+05 )
+A23-SKWAST At min_frate (line_minfrate, u_minfrate, x_minfrate, y_minfrate) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A23-SKWAST At max_frate (line_maxfrate, u_maxfrate, x_maxfrate, y_maxfrate) = (  42560 8.729806e-01 -1.468379e+01 3.401828e+01 )
+
+# Testing data 01 
+# DTStamp_FHdata_02 2023-06-06 03:17:46 973478293 

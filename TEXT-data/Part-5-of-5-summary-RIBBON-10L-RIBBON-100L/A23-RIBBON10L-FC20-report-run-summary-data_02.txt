@@ -1,0 +1,59 @@
+# DTStamp_FHdata_02 2023-06-07 18:31:53 812419263 
+# Testing data 02 
+Write run report statistics to screen and file. 
+
+A23-RIB10L (1) EPSILON PROCESSING ERRORS 
+A23-RIB10L STEP 1 ERRORS 
+A23-RIB10L count_step1_ERROR_1 =          0 
+A23-RIB10L count_step1_ERROR_2 =          0 
+A23-RIB10L STEP 2 ERRORS 
+A23-RIB10L count_step2_ERROR_1 =          0 
+A23-RIB10L count_step2_ERROR_2 =          0 
+A23-RIB10L count_step2_ERROR_3 =          0 
+A23-RIB10L count_step2_ERROR_4 =          0 
+
+A23-RIB10L (2) EPSILON COUNT RANGE VALUE STATISTICS 
+A23-RIB10L cnt_eps_above_10E_6             =          0  (0.000000 %) 
+A23-RIB10L cnt_eps_betwn_10E_7_upto_10E_6  =       7352  (100.000000 %) 
+A23-RIB10L cnt_eps_betwn_10E_8_upto_10E_7  =          0  (0.000000 %) 
+A23-RIB10L cnt_eps_betwn_10E_9_upto_10E_8  =          0  (0.000000 %) 
+A23-RIB10L cnt_eps_betwn_10E_10_upto_10E_9 =          0  (0.000000 %) 
+A23-RIB10L cnt_eps_below_10E_10            =          0  (0.000000 %) 
+A23-RIB10L cnt_eps_total_points processed  =       7352  (100.000000 %) 
+
+A23-RIB10L (3) INTERPOLATED POINT STATISTICS 
+A23-RIB10L Count before step1, epsilon is already    below upper bound = 0 (   0.000000  %) 
+A23-RIB10L Count during step1, pushdown epsilon to   below upper bound = 7352 ( 100.000000  %) 
+A23-RIB10L After step1 the interpolated points count below upper bound = 7352 (total interpolated points) 
+A23-RIB10L Count during step2, pushup into range (lower , upper) bound = 0 (total pushup points) 
+
+A23-RIB10L (4) ADJUST (INCR/DECR) CURR_FRATE TO CALCULATED CURR_FRATE_LIMIT 
+A23-RIB10L Count_rising_s_curve_points     = 370 	(    5.032644 %) 
+A23-RIB10L Count_frate_islower_fratelimit  = 3310 	(   45.021763 %) 
+A23-RIB10L Count_frate_isequal_fratelimit  = 0 	(    0.000000 %) 
+A23-RIB10L Count_frate_ishigher_fratelimit = 3303 	(   44.926551 %) 
+A23-RIB10L Count_falling_s_curve_points    = 369 	(    5.019042 %) 
+A23-RIB10L Total interpolated points       = 7352 	(  100.000000 %) 
+
+A23-RIB10L (5) CHORD ERROR (CURR_EPS) VARIABLE VALUE STATISTICS 
+A23-RIB10L eps (min_eps, avg_eps, max_eps, sum_eps) = ( 0.000000e+00, 9.972317e-07, 9.999985e-07 7.330650e-03 )
+A23-RIB10L At min_eps (line_mineps, u_mineps, x_mineps, y_mineps) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A23-RIB10L At max_eps (line_maxeps, u_maxeps, x_maxeps, y_maxeps) = (   4307 6.003012e-01 1.609652e-01 1.860966e+00 )
+
+A23-RIB10L (6) RADIUS OF CURVATURE (CURR_RHO) VARIABLE VALUE STATISTICS 
+A23-RIB10L rho (min, avg, max, sum) = ( 0.000000e+00, 5.700532e+00, 3.180929e+01 4.190461e+04 )
+A23-RIB10L At min_rho (line_minrho, u_minrho, x_minrho, y_minrho) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A23-RIB10L At max_rho (line_maxrho, u_maxrho, x_maxrho, y_maxrho) = (   7351 9.999004e-01 3.998407e+00 4.996416e+00 )
+
+A23-RIB10L (7) TANGENTIAL ACCELERATION (CURR_TANG_ACCN) VARIABLE VALUE STATISTICS 
+A23-RIB10L tangaccn (min, avg, max, sum) = ( -3.050599e+01, -3.490923e-01, 3.044238e+01 -2.566178e+03 )
+A23-RIB10L At min_tangaccn (line_mintangaccn, u_mintangaccn, x_mintangaccn, y_mintangaccn) = (   6997 9.519565e-01 3.268234e+00 3.484921e+00 )
+A23-RIB10L At max_tangaccn (line_maxtangaccn, u_maxtangaccn, x_maxtangaccn, y_maxtangaccn) = (    122 1.666226e-02 3.737846e+00 1.573485e+00 )
+
+A23-RIB10L (8) FEEDRATE (CURR_FRATE) VARIABLE VALUE STATISTICS 
+A23-RIB10L frate (min, avg, max, sum) = ( 0.000000e+00, 5.021156e+00, 1.394601e+01 3.691051e+04 )
+A23-RIB10L At min_frate (line_minfrate, u_minfrate, x_minfrate, y_minfrate) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A23-RIB10L At max_frate (line_maxfrate, u_maxfrate, x_maxfrate, y_maxfrate) = (    147 2.005909e-02 3.685493e+00 1.684016e+00 )
+
+# Testing data 01 
+# DTStamp_FHdata_02 2023-06-07 18:32:58 80415874 

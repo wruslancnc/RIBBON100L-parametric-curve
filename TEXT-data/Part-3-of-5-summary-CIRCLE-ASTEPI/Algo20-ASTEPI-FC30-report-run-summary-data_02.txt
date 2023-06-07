@@ -1,0 +1,59 @@
+# DTStamp_FHdata_02 2023-06-03 22:18:37 116146059 
+# Testing data 02 
+Write run report statistics to screen and file. 
+
+A20-ASTEPI (1) EPSILON PROCESSING ERRORS 
+A20-ASTEPI STEP 1 ERRORS 
+A20-ASTEPI count_step1_ERROR_1 =          0 
+A20-ASTEPI count_step1_ERROR_2 =          0 
+A20-ASTEPI STEP 2 ERRORS 
+A20-ASTEPI count_step2_ERROR_1 =          0 
+A20-ASTEPI count_step2_ERROR_2 =          0 
+A20-ASTEPI count_step2_ERROR_3 =          0 
+A20-ASTEPI count_step2_ERROR_4 =          0 
+
+A20-ASTEPI (2) EPSILON COUNT RANGE VALUE STATISTICS 
+A20-ASTEPI cnt_eps_above_10E_6             =          0  (0.000000 %) 
+A20-ASTEPI cnt_eps_betwn_10E_7_upto_10E_6  =       6679  (26.193184 %) 
+A20-ASTEPI cnt_eps_betwn_10E_8_upto_10E_7  =      18820  (73.806816 %) 
+A20-ASTEPI cnt_eps_betwn_10E_9_upto_10E_8  =          0  (0.000000 %) 
+A20-ASTEPI cnt_eps_betwn_10E_10_upto_10E_9 =          0  (0.000000 %) 
+A20-ASTEPI cnt_eps_below_10E_10            =          0  (0.000000 %) 
+A20-ASTEPI cnt_eps_total_points processed  =      25499  (100.000000 %) 
+
+A20-ASTEPI (3) INTERPOLATED POINT STATISTICS 
+A20-ASTEPI Count before step1, epsilon is already    below upper bound = 25309 (  99.254873  %) 
+A20-ASTEPI Count during step1, pushdown epsilon to   below upper bound = 190 (   0.745127  %) 
+A20-ASTEPI After step1 the interpolated points count below upper bound = 25499 (total interpolated points) 
+A20-ASTEPI Count during step2, pushup into range (lower , upper) bound = 0 (total pushup points) 
+
+A20-ASTEPI (4) ADJUST (INCR/DECR) CURR_FRATE TO CALCULATED CURR_FRATE_LIMIT 
+A20-ASTEPI Count_rising_s_curve_points     = 1479 	(    5.800227 %) 
+A20-ASTEPI Count_frate_islower_fratelimit  = 11144 	(   43.703675 %) 
+A20-ASTEPI Count_frate_isequal_fratelimit  = 0 	(    0.000000 %) 
+A20-ASTEPI Count_frate_ishigher_fratelimit = 11891 	(   46.633201 %) 
+A20-ASTEPI Count_falling_s_curve_points    = 985 	(    3.862897 %) 
+A20-ASTEPI Total interpolated points       = 25499 	(  100.000000 %) 
+
+A20-ASTEPI (5) CHORD ERROR (CURR_EPS) VARIABLE VALUE STATISTICS 
+A20-ASTEPI eps (min_eps, avg_eps, max_eps, sum_eps) = ( 0.000000e+00, 9.373294e-08, 9.999959e-07 2.390002e-03 )
+A20-ASTEPI At min_eps (line_mineps, u_mineps, x_mineps, y_mineps) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A20-ASTEPI At max_eps (line_maxeps, u_maxeps, x_maxeps, y_maxeps) = (   3038 1.371070e-01 5.398279e+01 5.818309e+01 )
+
+A20-ASTEPI (6) RADIUS OF CURVATURE (CURR_RHO) VARIABLE VALUE STATISTICS 
+A20-ASTEPI rho (min, avg, max, sum) = ( 0.000000e+00, 4.156686e+02, 7.697448e+05 1.059872e+07 )
+A20-ASTEPI At min_rho (line_minrho, u_minrho, x_minrho, y_minrho) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A20-ASTEPI At max_rho (line_maxrho, u_maxrho, x_maxrho, y_maxrho) = (   1180 4.042935e-02 4.606864e+01 3.928503e+01 )
+
+A20-ASTEPI (7) TANGENTIAL ACCELERATION (CURR_TANG_ACCN) VARIABLE VALUE STATISTICS 
+A20-ASTEPI tangaccn (min, avg, max, sum) = ( -4.236399e+01, -2.050052e-02, 4.242174e+01 -5.227223e+02 )
+A20-ASTEPI At min_tangaccn (line_mintangaccn, u_mintangaccn, x_mintangaccn, y_mintangaccn) = (  18349 7.172851e-01 -3.917056e+01 -4.412022e+01 )
+A20-ASTEPI At max_tangaccn (line_maxtangaccn, u_maxtangaccn, x_maxtangaccn, y_maxtangaccn) = (  13037 5.328040e-01 -4.414124e+01 -3.917038e+01 )
+
+A20-ASTEPI (8) FEEDRATE (CURR_FRATE) VARIABLE VALUE STATISTICS 
+A20-ASTEPI frate (min, avg, max, sum) = ( 0.000000e+00, 8.507426e+00, 3.000000e+01 2.169224e+05 )
+A20-ASTEPI At min_frate (line_minfrate, u_minfrate, x_minfrate, y_minfrate) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+A20-ASTEPI At max_frate (line_maxfrate, u_maxfrate, x_maxfrate, y_maxfrate) = (   4607 2.064373e-01 3.941629e+01 4.692014e+01 )
+
+# Testing data 01 
+# DTStamp_FHdata_02 2023-06-03 22:18:43 213963526 
