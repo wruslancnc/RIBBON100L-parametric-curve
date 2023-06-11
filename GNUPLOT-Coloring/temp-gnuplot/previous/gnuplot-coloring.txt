@@ -1,0 +1,79 @@
+https://gnuplot.sourceforge.net/demo/varcolor.html
+
+set errorbars
+plot 'candlesticks.dat' \
+        using 1:5:2:6:(.2):1 with boxerror lc pal z fs solid 0.5, \
+     '' using 1:(1):1 with points pt 11 lc pal z, \
+     '' using 1:(8):(by3($0)):(by4($0)):1 with xyerrorbars lc pal z, \
+     '' using ($1+.5):($2/2):1 with impulses lc pal z lw 3,\
+     '' using 1:(-3):(0.5):(1):1 with vectors lc pal z,\
+     '' using 1:(-1):1:1 with labels tc pal z
+
+========================================================
+#!/usr/local/bin/gnuplot -persist
+
+# set terminal pngcairo  transparent enhanced font "arial,10" fontscale 1.0 size 600, 400 
+# set output 'varcolor.4.png'
+set boxwidth 0.2 absolute
+unset key
+unset parametric
+set style data lines
+set title "variable color using 'lc palette z'" 
+set xrange [ 0.00000 : 11.0000 ] noreverse nowriteback
+set x2range [ * : * ] noreverse writeback
+set yrange [ -4.00000 : 10.0000 ] noreverse nowriteback
+set y2range [ * : * ] noreverse writeback
+set zrange [ * : * ] noreverse writeback
+set cbrange [ * : * ] noreverse writeback
+set rrange [ * : * ] noreverse writeback
+set colorbox vertical origin screen 0.9, 0.2 size screen 0.05, 0.6 front  noinvert bdefault
+by3(x) = (((int(x)%3)+1)/6.)
+by4(x) = (((int(x)%4)+1)/7.)
+rgbfudge(x) = x*51*32768 + (11-x)*51*128 + int(abs(5.5-x)*510/9.)
+NO_ANIMATION = 1
+## Last datafile plotted: "candlesticks.dat"
+plot 'candlesticks.dat'         using 1:5:2:6:(.2):1 with boxerror lc pal z fs solid 0.5,      '' using 1:(1):1 with points pt 11 lc pal z,      '' using 1:(8):(by3($0)):(by4($0)):1 with xyerrorbars lc pal z,      '' using ($1+.5):($2/2):1 with impulses lc pal z lw 3,     '' using 1:(-3):(0.5):(1):1 with vectors lc pal z,     '' using 1:(-1):1:1 with labels tc pal z
+
+
+========================================================
+set title "variable color using 'lc palette z'"
+set colorbox
+set errorbars lw 1.0 lc black dt '-'
+plot 'candlesticks.dat' using 1:(1):1 with points pt 11 lc pal z, \
+     '' using 1:2:(.1):1 with circles lc pal z, \
+     '' using 1:3:2:6:5:1 with candlesticks lc pal z, \
+     '' using ($1+.3):3:2:6:5:1 with financebars lc pal z, \
+     '' using 1:(8):(by3($0)):(by4($0)):1 with boxxy lc pal z fs solid, \
+     '' using 1:(-$2/2):1 with boxes lc pal z
+
+
+Click here for minimal script to generate this plot
+
+
+
+========================================================
+#!/usr/local/bin/gnuplot -persist
+# set terminal pngcairo  transparent enhanced font "arial,10" fontscale 1.0 size 600, 400 
+# set output 'varcolor.3.png'
+set errorbars front 1.000000  linecolor -1 linewidth 1.000 dashtype "-"
+set boxwidth 0.2 absolute
+unset key
+unset parametric
+set style data lines
+set title "variable color using 'lc palette z'" 
+set xrange [ 0.00000 : 11.0000 ] noreverse nowriteback
+set x2range [ * : * ] noreverse writeback
+set yrange [ -4.00000 : 10.0000 ] noreverse nowriteback
+set y2range [ * : * ] noreverse writeback
+set zrange [ * : * ] noreverse writeback
+set cbrange [ * : * ] noreverse writeback
+set rrange [ * : * ] noreverse writeback
+set colorbox vertical origin screen 0.9, 0.2 size screen 0.05, 0.6 front  noinvert bdefault
+by3(x) = (((int(x)%3)+1)/6.)
+by4(x) = (((int(x)%4)+1)/7.)
+rgbfudge(x) = x*51*32768 + (11-x)*51*128 + int(abs(5.5-x)*510/9.)
+NO_ANIMATION = 1
+## Last datafile plotted: "candlesticks.dat"
+plot 'candlesticks.dat' using 1:(1):1 with points pt 11 lc pal z,      '' using 1:2:(.1):1 with circles lc pal z,      '' using 1:3:2:6:5:1 with candlesticks lc pal z,      '' using ($1+.3):3:2:6:5:1 with financebars lc pal z,      '' using 1:(8):(by3($0)):(by4($0)):1 with boxxy lc pal z fs solid,      '' using 1:(-$2/2):1 with boxes lc pal z
+
+========================================================
