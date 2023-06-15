@@ -1,0 +1,37 @@
+This is makeindex, version 2.15 [TeX Live 2015] (kpathsea + Thai support).
+Scanning style file ./Draft-46-PhD-Proposal-WRY.ist.............................done (29 attributes redefined, 0 ignored).
+Scanning input file Draft-46-PhD-Proposal-WRY.glo....done (30 entries accepted, 0 rejected).
+Sorting entries....done (158 comparisons).
+Generating output file Draft-46-PhD-Proposal-WRY.gls....
+## Warning (input = Draft-46-PhD-Proposal-WRY.glo, line = 14; output = Draft-46-PhD-Proposal-WRY.gls, line = 6):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = Draft-46-PhD-Proposal-WRY.glo, line = 24; output = Draft-46-PhD-Proposal-WRY.gls, line = 8):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = Draft-46-PhD-Proposal-WRY.glo, line = 15; output = Draft-46-PhD-Proposal-WRY.gls, line = 12):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = Draft-46-PhD-Proposal-WRY.glo, line = 25; output = Draft-46-PhD-Proposal-WRY.gls, line = 14):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = Draft-46-PhD-Proposal-WRY.glo, line = 13; output = Draft-46-PhD-Proposal-WRY.gls, line = 19):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = Draft-46-PhD-Proposal-WRY.glo, line = 23; output = Draft-46-PhD-Proposal-WRY.gls, line = 21):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = Draft-46-PhD-Proposal-WRY.glo, line = 12; output = Draft-46-PhD-Proposal-WRY.gls, line = 25):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = Draft-46-PhD-Proposal-WRY.glo, line = 22; output = Draft-46-PhD-Proposal-WRY.gls, line = 27):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = Draft-46-PhD-Proposal-WRY.glo, line = 11; output = Draft-46-PhD-Proposal-WRY.gls, line = 31):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = Draft-46-PhD-Proposal-WRY.glo, line = 21; output = Draft-46-PhD-Proposal-WRY.gls, line = 33):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+done (35 lines written, 10 warnings).
+Output written in Draft-46-PhD-Proposal-WRY.gls.
+Transcript written in zLog-02-Draft-46-PhD-Proposal-WRY.log.

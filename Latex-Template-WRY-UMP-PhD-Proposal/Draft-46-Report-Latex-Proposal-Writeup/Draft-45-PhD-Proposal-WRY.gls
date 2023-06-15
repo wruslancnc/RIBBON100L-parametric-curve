@@ -1,0 +1,35 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{A}\relax \glsresetentrylist %
+\glossentry{apig}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
+		\setentrycounter[]{page}\glsignore{218}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{218}\delimN 
+		\setentrycounter[]{page}\glsignore{219}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{219}}}%
+\glossentry{apug}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
+		\setentrycounter[]{page}\glsignore{218}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{218}\delimN 
+		\setentrycounter[]{page}\glsignore{219}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{219}}}\glsgroupskip
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossentry{cnc-control-loop}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
+		\setentrycounter[]{page}\glsignore{218}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{218}\delimN 
+		\setentrycounter[]{page}\glsignore{219}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{219}}}%
+\glossentry{cnc-interpolator}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
+		\setentrycounter[]{page}\glsignore{218}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{218}\delimN 
+		\setentrycounter[]{page}\glsignore{219}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{219}}}%
+\glossentry{cnc-interpreter}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
+		\setentrycounter[]{page}\glsignore{218}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{218}\delimN 
+		\setentrycounter[]{page}\glsignore{219}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{219}}}%
+\end{theglossary}\glossarypostamble

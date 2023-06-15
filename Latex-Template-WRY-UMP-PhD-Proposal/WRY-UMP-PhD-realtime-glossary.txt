@@ -1,0 +1,59 @@
+
+A task is real-time when the timeliness of the activities' completion is a functional requirement and correctness condition, rather than merely a performance metric. A real-time system is one where some (though perhaps not all) of the tasks are real-time tasks. 
+
+
+CONFIG_PREEMPT_VOLUNTARY -
+This option introduces checks to the most common causes of long latencies in the kernel code, so that the kernel can voluntarily yield control to a higher priority task waiting to execute. This option is said to be reducing the occurrances of long latencies to a great degree but still it doesn't eliminate them totally.
+
+CONFIG_PREEMPT_RT -
+This option causes all kernel code outside of spinlock-protected regions (created by raw_spinlock_t), to be eligible for non-voluntary preemption by higher priority kernel threads. Spinlocks created by spinlock_t and rwlock_t, and the interrupts are also made preemptable with this option enabled. With this option, worst case latency drops to (around) single digit milliseconds.
+
+Disadvantage -
+The normal Linux kernel allows preemption of a task by a higher priority task only when the user space code is getting executed. 
+
+In order to reduce the latency, the CONFIG_PREEMPT_RT patch forces the kernel to non-voluntarily preempt the task at hand, at the arrival of a higher proiority kernel task. This is bound to cause a reduction in the overall throughput of the system since there will be several context switches and also the lower priority tasks won't be getting much a chance to get through.
+
+
+
+
+=========================================================
+
+What is latency?
+The time elasped between a demand issued on a computer system and the begining of a response to the same demand is called latency or response time.
+Kinds of latencies:
+
+    Interrupt Latency:
+    The time elapsed between the generation of an interrupt and the start of the execution of the corresponding interrupt handler.
+    Example: When a hardware device performs a task, it generates an interrupt. This interrupt has the information about the task to be performed and about the interrupt handler to be executed. The interrupt handler then performs the particular task. 
+    
+    
+    Scheduling Latency:
+    It is the time between a wakeup signaling that an event has occurred and the kernel scheduler getting an opportunity to schedule the thread that is waiting for the wakeup to occur (the response). Scheduling latency is also known as dispatch latency.
+    
+    Worst-case Latency:
+    The maximum amount of time that can laspe between a demand issued on a computer system and the begining of a response to the same demand.
+
+What is throughput?
+Amount of work that a computer can do in a given period of time is called throughput.
+
+What is Context switch?
+Context switch is the switching of the CPU from one process/thread to another. Context switches can occur only in kernel mode. This is the process of saving the current execution state of the process (for resuming execution later on), and loading the saved state of the new process/thread for execution.
+
+
+============================================================
+Adding to top vote answer "lower priority tasks won't be getting much a chance to get through"
+
+That's sort of the whole point (though on a 4+ core system those low priority tasks could still run as long as they are forbidden from doing things that would interfere with critical tasks - this is where it's important to be able to make sure all the peripherals connected play nice by not blocking when the app running critical thread wants to access them). The critical bit (if for example thinking about developing a useful system for processing external input timely or testing behaviour of data conversion with live data as opposed to model), is to have a way to tell the kernel where the time critical input is arriving from.
+
+Problem with current eg. Windows systems is that you might be a "serious gamer or serious musician" that notices things like 150 microsecond jitters. If you have no way to specify that the keyboard, mouse or other human interface device should be treated at critical priority, then all sort of "windows updates" and such can come and do their thing which might in turn trigger some activity in the USB controller that has higher priority than the threads related to doing the input.
+
+I read about a case where glitches in audio were resolved by adding a 2nd USB controller with nothing on it except the input device. In portable setting, you practically need Thunderbolt PCIe passthrough to add a dedicated hub (or fpga) that can, together with drivers, override everything else on the system. This is why the aren't much USB products on the market that provide good enough performance for musicians. (2 ms round trip latency with max 150 microsecond jitter over full day without dropouts)
+
+
+=============================================================
+
+
+
+
+
+
