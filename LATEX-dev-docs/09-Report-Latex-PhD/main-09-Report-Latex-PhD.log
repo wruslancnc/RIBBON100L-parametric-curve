@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  15 JUN 2023 23:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  16 JUN 2023 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1566,7 +1566,16 @@ LaTeX Warning: Unused global option(s):
 ) (./Chap-53-tex/Circle-feedrate.aux) (./Chap-53-tex/AstEpi-feedrate.aux)
 (./Chap-53-tex/Snailshell-feedrate.aux) (./Chap-53-tex/SnaHyp-feedrate.aux)
 (./Chap-53-tex/Ribbon-10L-feedrate.aux) (./Chap-53-tex/Ribbon-100L-feedrate.aux
-)
+) (./Chap-54-tex/Teardrop-interpolated-points.aux)
+(./Chap-54-tex/Butterfly-interpolated-points.aux)
+(./Chap-54-tex/Ellipse-interpolated-points.aux)
+(./Chap-54-tex/Skewed-Astroid-interpolated-points.aux)
+(./Chap-54-tex/Circle-interpolated-points.aux)
+(./Chap-54-tex/AstEpi-interpolated-points.aux)
+(./Chap-54-tex/Snailshell-interpolated-points.aux)
+(./Chap-54-tex/SnaHyp-interpolated-points.aux)
+(./Chap-54-tex/Ribbon-10L-interpolated-points.aux)
+(./Chap-54-tex/Ribbon-100L-interpolated-points.aux)
 \c@pagesLTS.arabic.1.local.cnt=\count407
 )
 \openout1 = `main-09-Report-Latex-PhD.aux'.
@@ -1589,7 +1598,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 254.
 LaTeX Font Info:    ... okay on input line 254.
 \AtBeginShipoutBox=\box159
 Package hyperref Info: Link coloring ON on input line 254.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1865,7 +1875,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 ...r feedrate profile}{34}{subsection.1.3.13}
+l.38 ...r feedrate profile}{35}{subsection.1.3.13}
                                                   % [1
 
 
@@ -1874,53 +1884,53 @@ l.38 ...r feedrate profile}{34}{subsection.1.3.13}
 \openout11 = `main-09-Report-Latex-PhD.toc'.
 
  [2]
-(./main-09-Report-Latex-PhD.lot)
+(./main-09-Report-Latex-PhD.lot [3
+
+])
 \tf@lot=\write12
 \openout12 = `main-09-Report-Latex-PhD.lot'.
 
- [3
-
-] (./Chapter-5-Experiment.tex
+ [4] (./Chapter-5-Experiment.tex
 Chapter 1.
-) (./Chapter-51-Simulation-Curves.tex) [4
+) (./Chapter-51-Simulation-Curves.tex) [5
 
 ]
 \openout2 = `./Chap-51-tex/Teardrop.aux'.
 
  (./Chap-51-tex/Teardrop.tex
-<./07-images/img-Ch5/TEARDROP-Axis.png, id=387, 1000.73875pt x 667.49374pt>
+<./07-images/img-Ch5/TEARDROP-Axis.png, id=463, 1000.73875pt x 667.49374pt>
 File: ./07-images/img-Ch5/TEARDROP-Axis.png Graphic file (type png)
 <use ./07-images/img-Ch5/TEARDROP-Axis.png>
 Package pdftex.def Info: ./07-images/img-Ch5/TEARDROP-Axis.png  used on input l
 ine 19.
 (pdftex.def)             Requested size: 265.4127pt x 177.02759pt.
-<./07-images/img-Ch5/TEARDROP-Feedrate.png, id=388, 602.25pt x 602.25pt>
+<./07-images/img-Ch5/TEARDROP-Feedrate.png, id=464, 602.25pt x 602.25pt>
 File: ./07-images/img-Ch5/TEARDROP-Feedrate.png Graphic file (type png)
 <use ./07-images/img-Ch5/TEARDROP-Feedrate.png>
 Package pdftex.def Info: ./07-images/img-Ch5/TEARDROP-Feedrate.png  used on inp
 ut line 20.
 (pdftex.def)             Requested size: 178.50919pt x 178.50764pt.
 )
-[5
+[6
 
  <./07-images/img-Ch5/TEARDROP-Axis.png> <./07-images/img-Ch5/TEARDROP-Feedrate
 .png>]
 \openout2 = `./Chap-51-tex/Butterfly.aux'.
 
  (./Chap-51-tex/Butterfly.tex
-<./07-images/img-Ch5/BUTTERFLY-Axis.png, id=398, 933.4875pt x 668.4975pt>
+<./07-images/img-Ch5/BUTTERFLY-Axis.png, id=475, 933.4875pt x 668.4975pt>
 File: ./07-images/img-Ch5/BUTTERFLY-Axis.png Graphic file (type png)
 <use ./07-images/img-Ch5/BUTTERFLY-Axis.png>
 Package pdftex.def Info: ./07-images/img-Ch5/BUTTERFLY-Axis.png  used on input 
 line 21.
 (pdftex.def)             Requested size: 263.06165pt x 188.38167pt.
-<./07-images/img-Ch5/BUTTERFLY-Feedrate.png, id=399, 602.25pt x 602.25pt>
+<./07-images/img-Ch5/BUTTERFLY-Feedrate.png, id=476, 602.25pt x 602.25pt>
 File: ./07-images/img-Ch5/BUTTERFLY-Feedrate.png Graphic file (type png)
 <use ./07-images/img-Ch5/BUTTERFLY-Feedrate.png>
 Package pdftex.def Info: ./07-images/img-Ch5/BUTTERFLY-Feedrate.png  used on in
 put line 22.
 (pdftex.def)             Requested size: 187.89912pt x 187.8994pt.
-) [6
+) [7
 
 
  <./07-images/img-Ch5/BUTTERFLY-Axis.png> <./07-images/img-Ch5/BUTTERFLY-Feedra
@@ -1928,20 +1938,20 @@ te.png>]
 \openout2 = `./Chap-51-tex/Ellipse.aux'.
 
  (./Chap-51-tex/Ellipse.tex
-<./07-images/img-Ch5/ELLIPSE-Axis.png, id=411, 806.01125pt x 666.49pt>
+<./07-images/img-Ch5/ELLIPSE-Axis.png, id=487, 806.01125pt x 666.49pt>
 File: ./07-images/img-Ch5/ELLIPSE-Axis.png Graphic file (type png)
 <use ./07-images/img-Ch5/ELLIPSE-Axis.png>
 Package pdftex.def Info: ./07-images/img-Ch5/ELLIPSE-Axis.png  used on input li
 ne 28.
 (pdftex.def)             Requested size: 239.57246pt x 198.09764pt.
-<./07-images/img-Ch5/ELLIPSE-Feedrate.png, id=412, 602.25pt x 602.25pt>
+<./07-images/img-Ch5/ELLIPSE-Feedrate.png, id=488, 602.25pt x 602.25pt>
 File: ./07-images/img-Ch5/ELLIPSE-Feedrate.png Graphic file (type png)
 <use ./07-images/img-Ch5/ELLIPSE-Feedrate.png>
 Package pdftex.def Info: ./07-images/img-Ch5/ELLIPSE-Feedrate.png  used on inpu
 t line 29.
 (pdftex.def)             Requested size: 197.29623pt x 197.30034pt.
 )
-[7
+[8
 
 
  <./07-images/img-Ch5/ELLIPSE-Axis.png> <./07-images/img-Ch5/ELLIPSE-Feedrate.p
@@ -1949,20 +1959,20 @@ ng>]
 \openout2 = `./Chap-51-tex/Skewed-Astroid.aux'.
 
  (./Chap-51-tex/Skewed-Astroid.tex
-<./07-images/img-Ch5/SKEWED-ASTROID-Axis.png, id=421, 858.20625pt x 673.51625pt
+<./07-images/img-Ch5/SKEWED-ASTROID-Axis.png, id=497, 858.20625pt x 673.51625pt
 >
 File: ./07-images/img-Ch5/SKEWED-ASTROID-Axis.png Graphic file (type png)
 <use ./07-images/img-Ch5/SKEWED-ASTROID-Axis.png>
 Package pdftex.def Info: ./07-images/img-Ch5/SKEWED-ASTROID-Axis.png  used on i
 nput line 22.
 (pdftex.def)             Requested size: 239.57246pt x 188.00775pt.
-<./07-images/img-Ch5/SKEWED-ASTROID-Feedrate.png, id=422, 602.25pt x 602.25pt>
+<./07-images/img-Ch5/SKEWED-ASTROID-Feedrate.png, id=498, 602.25pt x 602.25pt>
 File: ./07-images/img-Ch5/SKEWED-ASTROID-Feedrate.png Graphic file (type png)
 <use ./07-images/img-Ch5/SKEWED-ASTROID-Feedrate.png>
 Package pdftex.def Info: ./07-images/img-Ch5/SKEWED-ASTROID-Feedrate.png  used 
 on input line 23.
 (pdftex.def)             Requested size: 187.89912pt x 187.8994pt.
-) [8
+) [9
 
 
  <./07-images/img-Ch5/SKEWED-ASTROID-Axis.png> <./07-images/img-Ch5/SKEWED-ASTR
@@ -1971,19 +1981,19 @@ OID-Feedrate.png>]
 
 
 (./Chap-51-tex/Circle.tex
-<./07-images/img-Ch5/CIRCLE-Axis.png, id=431, 959.585pt x 666.49pt>
+<./07-images/img-Ch5/CIRCLE-Axis.png, id=508, 959.585pt x 666.49pt>
 File: ./07-images/img-Ch5/CIRCLE-Axis.png Graphic file (type png)
 <use ./07-images/img-Ch5/CIRCLE-Axis.png>
 Package pdftex.def Info: ./07-images/img-Ch5/CIRCLE-Axis.png  used on input lin
 e 20.
 (pdftex.def)             Requested size: 263.06165pt x 182.71072pt.
-<./07-images/img-Ch5/CIRCLE-Feedrate.png, id=432, 602.25pt x 602.25pt>
+<./07-images/img-Ch5/CIRCLE-Feedrate.png, id=509, 602.25pt x 602.25pt>
 File: ./07-images/img-Ch5/CIRCLE-Feedrate.png Graphic file (type png)
 <use ./07-images/img-Ch5/CIRCLE-Feedrate.png>
 Package pdftex.def Info: ./07-images/img-Ch5/CIRCLE-Feedrate.png  used on input
  line 21.
 (pdftex.def)             Requested size: 185.08214pt x 185.0782pt.
-) [9
+) [10
 
 
  <./07-images/img-Ch5/CIRCLE-Axis.png> <./07-images/img-Ch5/CIRCLE-Feedrate.png
@@ -1991,19 +2001,19 @@ Package pdftex.def Info: ./07-images/img-Ch5/CIRCLE-Feedrate.png  used on input
 \openout2 = `./Chap-51-tex/AstEpi.aux'.
 
  (./Chap-51-tex/AstEpi.tex
-<./07-images/img-Ch5/ASTEPI-Axis.png, id=441, 949.5475pt x 664.4825pt>
+<./07-images/img-Ch5/ASTEPI-Axis.png, id=518, 949.5475pt x 664.4825pt>
 File: ./07-images/img-Ch5/ASTEPI-Axis.png Graphic file (type png)
 <use ./07-images/img-Ch5/ASTEPI-Axis.png>
 Package pdftex.def Info: ./07-images/img-Ch5/ASTEPI-Axis.png  used on input lin
 e 25.
 (pdftex.def)             Requested size: 263.06165pt x 184.08682pt.
-<./07-images/img-Ch5/ASTEPI-Feedrate.png, id=442, 602.25pt x 602.25pt>
+<./07-images/img-Ch5/ASTEPI-Feedrate.png, id=519, 602.25pt x 602.25pt>
 File: ./07-images/img-Ch5/ASTEPI-Feedrate.png Graphic file (type png)
 <use ./07-images/img-Ch5/ASTEPI-Feedrate.png>
 Package pdftex.def Info: ./07-images/img-Ch5/ASTEPI-Feedrate.png  used on input
  line 26.
 (pdftex.def)             Requested size: 185.55522pt x 185.55606pt.
-) [10
+) [11
 
 
  <./07-images/img-Ch5/ASTEPI-Axis.png> <./07-images/img-Ch5/ASTEPI-Feedrate.png
@@ -2012,19 +2022,19 @@ Package pdftex.def Info: ./07-images/img-Ch5/ASTEPI-Feedrate.png  used on input
 
 
 (./Chap-51-tex/Snailshell.tex
-<./07-images/img-Ch5/SNAILSHELL-Axis.png, id=452, 921.4425pt x 667.49374pt>
+<./07-images/img-Ch5/SNAILSHELL-Axis.png, id=529, 921.4425pt x 667.49374pt>
 File: ./07-images/img-Ch5/SNAILSHELL-Axis.png Graphic file (type png)
 <use ./07-images/img-Ch5/SNAILSHELL-Axis.png>
 Package pdftex.def Info: ./07-images/img-Ch5/SNAILSHELL-Axis.png  used on input
  line 31.
 (pdftex.def)             Requested size: 258.36667pt x 187.1516pt.
-<./07-images/img-Ch5/SNAILSHELL-Feedrate.png, id=453, 602.25pt x 602.25pt>
+<./07-images/img-Ch5/SNAILSHELL-Feedrate.png, id=530, 602.25pt x 602.25pt>
 File: ./07-images/img-Ch5/SNAILSHELL-Feedrate.png Graphic file (type png)
 <use ./07-images/img-Ch5/SNAILSHELL-Feedrate.png>
 Package pdftex.def Info: ./07-images/img-Ch5/SNAILSHELL-Feedrate.png  used on i
 nput line 32.
 (pdftex.def)             Requested size: 185.55522pt x 185.55606pt.
-) [11
+) [12
 
 
  <./07-images/img-Ch5/SNAILSHELL-Axis.png> <./07-images/img-Ch5/SNAILSHELL-Feed
@@ -2032,20 +2042,20 @@ rate.png>]
 \openout2 = `./Chap-51-tex/SnaHyp.aux'.
 
  (./Chap-51-tex/SnaHyp.tex
-<./07-images/img-Ch5/SNAHYP-Axis.png, id=462, 939.51pt x 665.48625pt>
+<./07-images/img-Ch5/SNAHYP-Axis.png, id=540, 939.51pt x 665.48625pt>
 File: ./07-images/img-Ch5/SNAHYP-Axis.png Graphic file (type png)
 <use ./07-images/img-Ch5/SNAHYP-Axis.png>
 Package pdftex.def Info: ./07-images/img-Ch5/SNAHYP-Axis.png  used on input lin
 e 41.
 (pdftex.def)             Requested size: 263.06165pt x 186.33487pt.
-<./07-images/img-Ch5/SNAHYP-Feedrate.png, id=463, 602.25pt x 602.25pt>
+<./07-images/img-Ch5/SNAHYP-Feedrate.png, id=541, 602.25pt x 602.25pt>
 File: ./07-images/img-Ch5/SNAHYP-Feedrate.png Graphic file (type png)
 <use ./07-images/img-Ch5/SNAHYP-Feedrate.png>
 Package pdftex.def Info: ./07-images/img-Ch5/SNAHYP-Feedrate.png  used on input
  line 42.
 (pdftex.def)             Requested size: 185.55522pt x 185.55606pt.
 )
-[12
+[13
 
 
  <./07-images/img-Ch5/SNAHYP-Axis.png> <./07-images/img-Ch5/SNAHYP-Feedrate.png
@@ -2053,19 +2063,19 @@ Package pdftex.def Info: ./07-images/img-Ch5/SNAHYP-Feedrate.png  used on input
 \openout2 = `./Chap-51-tex/Ribbon-10L.aux'.
 
  (./Chap-51-tex/Ribbon-10L.tex
-<./07-images/img-Ch5/RIBBON-10L-Axis.png, id=473, 782.925pt x 538.01pt>
+<./07-images/img-Ch5/RIBBON-10L-Axis.png, id=550, 782.925pt x 538.01pt>
 File: ./07-images/img-Ch5/RIBBON-10L-Axis.png Graphic file (type png)
 <use ./07-images/img-Ch5/RIBBON-10L-Axis.png>
 Package pdftex.def Info: ./07-images/img-Ch5/RIBBON-10L-Axis.png  used on input
  line 31.
 (pdftex.def)             Requested size: 263.06165pt x 180.77013pt.
-<./07-images/img-Ch5/RIBBON-10L-Feedrate.png, id=474, 602.25pt x 602.25pt>
+<./07-images/img-Ch5/RIBBON-10L-Feedrate.png, id=551, 602.25pt x 602.25pt>
 File: ./07-images/img-Ch5/RIBBON-10L-Feedrate.png Graphic file (type png)
 <use ./07-images/img-Ch5/RIBBON-10L-Feedrate.png>
 Package pdftex.def Info: ./07-images/img-Ch5/RIBBON-10L-Feedrate.png  used on i
 nput line 32.
 (pdftex.def)             Requested size: 185.08214pt x 185.0782pt.
-) [13
+) [14
 
 
  <./07-images/img-Ch5/RIBBON-10L-Axis.png> <./07-images/img-Ch5/RIBBON-10L-Feed
@@ -2074,31 +2084,31 @@ rate.png>]
 
 
 (./Chap-51-tex/Ribbon-100L.tex
-<./07-images/img-Ch5/RIBBON-100L-Axis.png, id=483, 854.19125pt x 543.02875pt>
+<./07-images/img-Ch5/RIBBON-100L-Axis.png, id=560, 854.19125pt x 543.02875pt>
 File: ./07-images/img-Ch5/RIBBON-100L-Axis.png Graphic file (type png)
 <use ./07-images/img-Ch5/RIBBON-100L-Axis.png>
 Package pdftex.def Info: ./07-images/img-Ch5/RIBBON-100L-Axis.png  used on inpu
 t line 22.
 (pdftex.def)             Requested size: 270.10768pt x 171.70953pt.
-<./07-images/img-Ch5/RIBBON-100L-Feedrate.png, id=484, 602.25pt x 602.25pt>
+<./07-images/img-Ch5/RIBBON-100L-Feedrate.png, id=561, 602.25pt x 602.25pt>
 File: ./07-images/img-Ch5/RIBBON-100L-Feedrate.png Graphic file (type png)
 <use ./07-images/img-Ch5/RIBBON-100L-Feedrate.png>
 Package pdftex.def Info: ./07-images/img-Ch5/RIBBON-100L-Feedrate.png  used on 
 input line 23.
 (pdftex.def)             Requested size: 173.80704pt x 173.80258pt.
-) [14
+) [15
 
 
  <./07-images/img-Ch5/RIBBON-100L-Axis.png> <./07-images/img-Ch5/RIBBON-100L-Fe
 edrate.png>]
-(./Chapter-52-Simulation-Run-Results.tex) [15
+(./Chapter-52-Simulation-Run-Results.tex) [16
 
 ]
 \openout2 = `./Chap-52-tex/Teardrop-Butterfly-run-result.aux'.
 
 
 (./Chap-52-tex/Teardrop-Butterfly-run-result.tex
-<./07-images/img-Ch52/Teardrop-and-Butterfly-run-data-summary.png, id=500, 841.
+<./07-images/img-Ch52/Teardrop-and-Butterfly-run-data-summary.png, id=576, 841.
 1425pt x 598.235pt>
 File: ./07-images/img-Ch52/Teardrop-and-Butterfly-run-data-summary.png Graphic 
 file (type png)
@@ -2116,14 +2126,14 @@ File: ./07-images/img-Ch5/BUTTERFLY-Feedrate.png Graphic file (type png)
 Package pdftex.def Info: ./07-images/img-Ch5/BUTTERFLY-Feedrate.png  used on in
 put line 10.
 (pdftex.def)             Requested size: 197.29623pt x 197.30034pt.
-) [16
+) [17
 
  <./07-images/img-Ch52/Teardrop-and-Butterfly-run-data-summary.png>]
 \openout2 = `./Chap-52-tex/Ellipse-Skewed-Astroid-run-result.aux'.
 
 
 (./Chap-52-tex/Ellipse-Skewed-Astroid-run-result.tex
-<./07-images/img-Ch52/Ellipse-and-Skewed-Astroid-run-data-summary.png, id=507, 
+<./07-images/img-Ch52/Ellipse-and-Skewed-Astroid-run-data-summary.png, id=583, 
 822.07124pt x 604.2575pt>
 File: ./07-images/img-Ch52/Ellipse-and-Skewed-Astroid-run-data-summary.png Grap
 hic file (type png)
@@ -2141,7 +2151,7 @@ File: ./07-images/img-Ch5/SKEWED-ASTROID-Feedrate.png Graphic file (type png)
 Package pdftex.def Info: ./07-images/img-Ch5/SKEWED-ASTROID-Feedrate.png  used 
 on input line 9.
 (pdftex.def)             Requested size: 201.9912pt x 201.98703pt.
-) [17
+) [18
 
 
  <./07-images/img-Ch52/Ellipse-and-Skewed-Astroid-run-data-summary.png>]
@@ -2149,7 +2159,7 @@ on input line 9.
 
 
 (./Chap-52-tex/Circle-AstEpi-run-result.tex
-<./07-images/img-Ch52/Circle-and-AstEpi-run-data-summary.png, id=514, 838.13126
+<./07-images/img-Ch52/Circle-and-AstEpi-run-data-summary.png, id=591, 838.13126
 pt x 599.23875pt>
 File: ./07-images/img-Ch52/Circle-and-AstEpi-run-data-summary.png Graphic file 
 (type png)
@@ -2167,7 +2177,7 @@ File: ./07-images/img-Ch5/ASTEPI-Feedrate.png Graphic file (type png)
 Package pdftex.def Info: ./07-images/img-Ch5/ASTEPI-Feedrate.png  used on input
  line 9.
 (pdftex.def)             Requested size: 201.9912pt x 201.98703pt.
-) [18
+) [19
 
 
  <./07-images/img-Ch52/Circle-and-AstEpi-run-data-summary.png>]
@@ -2175,7 +2185,7 @@ Package pdftex.def Info: ./07-images/img-Ch5/ASTEPI-Feedrate.png  used on input
 
 
 (./Chap-52-tex/Snailshell-SnaHyp-run-result.tex
-<./07-images/img-Ch52/Snailshell-and-SnaHyp-run-data-summary.png, id=522, 872.2
+<./07-images/img-Ch52/Snailshell-and-SnaHyp-run-data-summary.png, id=598, 872.2
 5874pt x 632.3625pt>
 File: ./07-images/img-Ch52/Snailshell-and-SnaHyp-run-data-summary.png Graphic f
 ile (type png)
@@ -2193,7 +2203,7 @@ File: ./07-images/img-Ch5/SNAHYP-Feedrate.png Graphic file (type png)
 Package pdftex.def Info: ./07-images/img-Ch5/SNAHYP-Feedrate.png  used on input
  line 9.
 (pdftex.def)             Requested size: 201.9912pt x 201.98703pt.
-) [19
+) [20
 
 
  <./07-images/img-Ch52/Snailshell-and-SnaHyp-run-data-summary.png>]
@@ -2201,7 +2211,7 @@ Package pdftex.def Info: ./07-images/img-Ch5/SNAHYP-Feedrate.png  used on input
 
 
 (./Chap-52-tex/Ribbon-10L-Ribbon-100L-run-result.tex
-<./07-images/img-Ch52/Ribbon-10L-and-Ribbon-100L-run-data-summary.png, id=529, 
+<./07-images/img-Ch52/Ribbon-10L-and-Ribbon-100L-run-data-summary.png, id=605, 
 871.255pt x 624.3325pt>
 File: ./07-images/img-Ch52/Ribbon-10L-and-Ribbon-100L-run-data-summary.png Grap
 hic file (type png)
@@ -2219,17 +2229,17 @@ File: ./07-images/img-Ch5/RIBBON-100L-Feedrate.png Graphic file (type png)
 Package pdftex.def Info: ./07-images/img-Ch5/RIBBON-100L-Feedrate.png  used on 
 input line 9.
 (pdftex.def)             Requested size: 201.9912pt x 201.98703pt.
-) [20
+) [21
 
 
  <./07-images/img-Ch52/Ribbon-10L-and-Ribbon-100L-run-data-summary.png>]
-(./Chapter-53-Feedrate-Profiles.tex) [21
+(./Chapter-53-Feedrate-Profiles.tex) [22
 
 ]
 \openout2 = `./Chap-53-tex/Teardrop-feedrate.aux'.
 
  (./Chap-53-tex/Teardrop-feedrate.tex
-<./07-images/img-Ch53/FC20-Teardrop-x-y-curr-feedrates.png, id=542, 754.82pt x 
+<./07-images/img-Ch53/FC20-Teardrop-x-y-curr-feedrates.png, id=618, 754.82pt x 
 752.8125pt>
 File: ./07-images/img-Ch53/FC20-Teardrop-x-y-curr-feedrates.png Graphic file (t
 ype png)
@@ -2238,10 +2248,10 @@ Package pdftex.def Info: ./07-images/img-Ch53/FC20-Teardrop-x-y-curr-feedrates.
 png  used on input line 7.
 (pdftex.def)             Requested size: 446.2658pt x 445.07448pt.
 
-[22
+[23
 
  <./07-images/img-Ch53/FC20-Teardrop-x-y-curr-feedrates.png>]
-<./07-images/img-Ch53/FC20-Teardrop-x-y-curr-colored-feedrates.png, id=549, 602
+<./07-images/img-Ch53/FC20-Teardrop-x-y-curr-colored-feedrates.png, id=626, 602
 .25pt x 602.25pt>
 File: ./07-images/img-Ch53/FC20-Teardrop-x-y-curr-colored-feedrates.png Graphic
  file (type png)
@@ -2249,12 +2259,12 @@ File: ./07-images/img-Ch53/FC20-Teardrop-x-y-curr-colored-feedrates.png Graphic
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-Teardrop-x-y-curr-colored-fe
 edrates.png  used on input line 23.
 (pdftex.def)             Requested size: 446.2658pt x 446.28291pt.
-) [23 <./07-images/img-Ch53/FC20-Teardrop-x-y-curr-colored-feedrates.png>]
+) [24 <./07-images/img-Ch53/FC20-Teardrop-x-y-curr-colored-feedrates.png>]
 \openout2 = `./Chap-53-tex/Butterfly-feedrate.aux'.
 
 
 (./Chap-53-tex/Butterfly-feedrate.tex
-<./07-images/img-Ch53/FC20-Butterfly-x-y-curr-feedrates.png, id=557, 749.80125p
+<./07-images/img-Ch53/FC20-Butterfly-x-y-curr-feedrates.png, id=635, 749.80125p
 t x 746.79pt>
 File: ./07-images/img-Ch53/FC20-Butterfly-x-y-curr-feedrates.png Graphic file (
 type png)
@@ -2262,11 +2272,11 @@ type png)
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-Butterfly-x-y-curr-feedrates
 .png  used on input line 6.
 (pdftex.def)             Requested size: 446.2658pt x 444.47661pt.
- [24
+ [25
 
 
  <./07-images/img-Ch53/FC20-Butterfly-x-y-curr-feedrates.png>]
-<./07-images/img-Ch53/FC20-Butterfly-x-y-curr-colored-feedrates.png, id=565, 60
+<./07-images/img-Ch53/FC20-Butterfly-x-y-curr-colored-feedrates.png, id=642, 60
 2.25pt x 602.25pt>
 File: ./07-images/img-Ch53/FC20-Butterfly-x-y-curr-colored-feedrates.png Graphi
 c file (type png)
@@ -2274,11 +2284,11 @@ c file (type png)
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-Butterfly-x-y-curr-colored-f
 eedrates.png  used on input line 20.
 (pdftex.def)             Requested size: 446.2658pt x 446.28291pt.
-) [25 <./07-images/img-Ch53/FC20-Butterfly-x-y-curr-colored-feedrates.png>]
+) [26 <./07-images/img-Ch53/FC20-Butterfly-x-y-curr-colored-feedrates.png>]
 \openout2 = `./Chap-53-tex/Ellipse-feedrate.aux'.
 
  (./Chap-53-tex/Ellipse-feedrate.tex
-<./07-images/img-Ch53/FC20-Ellipse-x-y-curr-feedrates.png, id=573, 757.83125pt 
+<./07-images/img-Ch53/FC20-Ellipse-x-y-curr-feedrates.png, id=650, 757.83125pt 
 x 752.8125pt>
 File: ./07-images/img-Ch53/FC20-Ellipse-x-y-curr-feedrates.png Graphic file (ty
 pe png)
@@ -2286,11 +2296,11 @@ pe png)
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-Ellipse-x-y-curr-feedrates.p
 ng  used on input line 6.
 (pdftex.def)             Requested size: 446.2658pt x 443.31697pt.
- [26
+ [27
 
 
  <./07-images/img-Ch53/FC20-Ellipse-x-y-curr-feedrates.png>]
-<./07-images/img-Ch53/FC20-Ellipse-x-y-curr-colored-feedrates.png, id=580, 602.
+<./07-images/img-Ch53/FC20-Ellipse-x-y-curr-colored-feedrates.png, id=657, 602.
 25pt x 602.25pt>
 File: ./07-images/img-Ch53/FC20-Ellipse-x-y-curr-colored-feedrates.png Graphic 
 file (type png)
@@ -2298,11 +2308,11 @@ file (type png)
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-Ellipse-x-y-curr-colored-fee
 drates.png  used on input line 20.
 (pdftex.def)             Requested size: 446.2658pt x 446.28291pt.
-) [27 <./07-images/img-Ch53/FC20-Ellipse-x-y-curr-colored-feedrates.png>]
+) [28 <./07-images/img-Ch53/FC20-Ellipse-x-y-curr-colored-feedrates.png>]
 \openout2 = `./Chap-53-tex/Skewed-Astroid-feedrate.aux'.
 
  (./Chap-53-tex/Skewed-Astroid-feedrate.tex
-<./07-images/img-Ch53/FC20-Skewed-Astroid-x-y-curr-feedrates.png, id=588, 758.8
+<./07-images/img-Ch53/FC20-Skewed-Astroid-x-y-curr-feedrates.png, id=665, 758.8
 35pt x 751.80875pt>
 File: ./07-images/img-Ch53/FC20-Skewed-Astroid-x-y-curr-feedrates.png Graphic f
 ile (type png)
@@ -2311,12 +2321,12 @@ Package pdftex.def Info: ./07-images/img-Ch53/FC20-Skewed-Astroid-x-y-curr-feed
 rates.png  used on input line 8.
 (pdftex.def)             Requested size: 446.2658pt x 442.14082pt.
 
-[28
+[29
 
 
  <./07-images/img-Ch53/FC20-Skewed-Astroid-x-y-curr-feedrates.png>]
-<./07-images/img-Ch53/FC20-Skewed-Astroid-x-y-curr-colored-feedrates.png, id=59
-6, 602.25pt x 602.25pt>
+<./07-images/img-Ch53/FC20-Skewed-Astroid-x-y-curr-colored-feedrates.png, id=67
+2, 602.25pt x 602.25pt>
 File: ./07-images/img-Ch53/FC20-Skewed-Astroid-x-y-curr-colored-feedrates.png G
 raphic file (type png)
 <use ./07-images/img-Ch53/FC20-Skewed-Astroid-x-y-curr-colored-feedrates.png>
@@ -2324,12 +2334,12 @@ Package pdftex.def Info: ./07-images/img-Ch53/FC20-Skewed-Astroid-x-y-curr-colo
 red-feedrates.png  used on input line 22.
 (pdftex.def)             Requested size: 446.2658pt x 446.28291pt.
 )
-[29 <./07-images/img-Ch53/FC20-Skewed-Astroid-x-y-curr-colored-feedrates.png>]
+[30 <./07-images/img-Ch53/FC20-Skewed-Astroid-x-y-curr-colored-feedrates.png>]
 \openout2 = `./Chap-53-tex/Circle-feedrate.aux'.
 
 
 (./Chap-53-tex/Circle-feedrate.tex
-<./07-images/img-Ch53/FC20-Circle-x-y-curr-feedrates.png, id=604, 758.835pt x 7
+<./07-images/img-Ch53/FC20-Circle-x-y-curr-feedrates.png, id=681, 758.835pt x 7
 58.835pt>
 File: ./07-images/img-Ch53/FC20-Circle-x-y-curr-feedrates.png Graphic file (typ
 e png)
@@ -2337,11 +2347,11 @@ e png)
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-Circle-x-y-curr-feedrates.pn
 g  used on input line 7.
 (pdftex.def)             Requested size: 446.2658pt x 446.273pt.
- [30
+ [31
 
 
  <./07-images/img-Ch53/FC20-Circle-x-y-curr-feedrates.png>]
-<./07-images/img-Ch53/FC20-Circle-x-y-curr-colored-feedrates.png, id=612, 602.2
+<./07-images/img-Ch53/FC20-Circle-x-y-curr-colored-feedrates.png, id=688, 602.2
 5pt x 602.25pt>
 File: ./07-images/img-Ch53/FC20-Circle-x-y-curr-colored-feedrates.png Graphic f
 ile (type png)
@@ -2349,11 +2359,11 @@ ile (type png)
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-Circle-x-y-curr-colored-feed
 rates.png  used on input line 21.
 (pdftex.def)             Requested size: 446.2658pt x 446.28291pt.
-) [31 <./07-images/img-Ch53/FC20-Circle-x-y-curr-colored-feedrates.png>]
+) [32 <./07-images/img-Ch53/FC20-Circle-x-y-curr-colored-feedrates.png>]
 \openout2 = `./Chap-53-tex/AstEpi-feedrate.aux'.
 
  (./Chap-53-tex/AstEpi-feedrate.tex
-<./07-images/img-Ch53/FC20-AstEpi-x-y-curr-feedrates.png, id=620, 754.82pt x 75
+<./07-images/img-Ch53/FC20-AstEpi-x-y-curr-feedrates.png, id=696, 754.82pt x 75
 1.80875pt>
 File: ./07-images/img-Ch53/FC20-AstEpi-x-y-curr-feedrates.png Graphic file (typ
 e png)
@@ -2361,11 +2371,11 @@ e png)
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-AstEpi-x-y-curr-feedrates.pn
 g  used on input line 7.
 (pdftex.def)             Requested size: 446.2658pt x 444.48105pt.
- [32
+ [33
 
 
  <./07-images/img-Ch53/FC20-AstEpi-x-y-curr-feedrates.png>]
-<./07-images/img-Ch53/FC20-AstEpi-x-y-curr-colored-feedrates.png, id=627, 602.2
+<./07-images/img-Ch53/FC20-AstEpi-x-y-curr-colored-feedrates.png, id=703, 602.2
 5pt x 602.25pt>
 File: ./07-images/img-Ch53/FC20-AstEpi-x-y-curr-colored-feedrates.png Graphic f
 ile (type png)
@@ -2373,11 +2383,11 @@ ile (type png)
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-AstEpi-x-y-curr-colored-feed
 rates.png  used on input line 21.
 (pdftex.def)             Requested size: 446.2658pt x 446.28291pt.
-) [33 <./07-images/img-Ch53/FC20-AstEpi-x-y-curr-colored-feedrates.png>]
+) [34 <./07-images/img-Ch53/FC20-AstEpi-x-y-curr-colored-feedrates.png>]
 \openout2 = `./Chap-53-tex/Snailshell-feedrate.aux'.
 
  (./Chap-53-tex/Snailshell-feedrate.tex
-<./07-images/img-Ch53/FC20-Snailshell-x-y-curr-feedrates.png, id=635, 771.88374
+<./07-images/img-Ch53/FC20-Snailshell-x-y-curr-feedrates.png, id=711, 771.88374
 pt x 751.80875pt>
 File: ./07-images/img-Ch53/FC20-Snailshell-x-y-curr-feedrates.png Graphic file 
 (type png)
@@ -2385,11 +2395,11 @@ File: ./07-images/img-Ch53/FC20-Snailshell-x-y-curr-feedrates.png Graphic file
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-Snailshell-x-y-curr-feedrate
 s.png  used on input line 7.
 (pdftex.def)             Requested size: 446.2658pt x 434.6613pt.
- [34
+ [35
 
 
  <./07-images/img-Ch53/FC20-Snailshell-x-y-curr-feedrates.png>]
-<./07-images/img-Ch53/FC20-Snailshell-x-y-curr-colored-feedrates.png, id=642, 6
+<./07-images/img-Ch53/FC20-Snailshell-x-y-curr-colored-feedrates.png, id=718, 6
 02.25pt x 602.25pt>
 File: ./07-images/img-Ch53/FC20-Snailshell-x-y-curr-colored-feedrates.png Graph
 ic file (type png)
@@ -2397,12 +2407,12 @@ ic file (type png)
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-Snailshell-x-y-curr-colored-
 feedrates.png  used on input line 21.
 (pdftex.def)             Requested size: 446.2658pt x 446.28291pt.
-) [35 <./07-images/img-Ch53/FC20-Snailshell-x-y-curr-colored-feedrates.png>]
+) [36 <./07-images/img-Ch53/FC20-Snailshell-x-y-curr-colored-feedrates.png>]
 \openout2 = `./Chap-53-tex/SnaHyp-feedrate.aux'.
 
 
 (./Chap-53-tex/SnaHyp-feedrate.tex
-<./07-images/img-Ch53/FC20-SnaHyp-x-y-curr-feedrates.png, id=650, 765.86125pt x
+<./07-images/img-Ch53/FC20-SnaHyp-x-y-curr-feedrates.png, id=727, 765.86125pt x
  750.805pt>
 File: ./07-images/img-Ch53/FC20-SnaHyp-x-y-curr-feedrates.png Graphic file (typ
 e png)
@@ -2410,11 +2420,11 @@ e png)
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-SnaHyp-x-y-curr-feedrates.pn
 g  used on input line 7.
 (pdftex.def)             Requested size: 446.2658pt x 437.49498pt.
- [36
+ [37
 
 
  <./07-images/img-Ch53/FC20-SnaHyp-x-y-curr-feedrates.png>]
-<./07-images/img-Ch53/FC20-SnaHyp-x-y-curr-colored-feedrates.png, id=658, 602.2
+<./07-images/img-Ch53/FC20-SnaHyp-x-y-curr-colored-feedrates.png, id=735, 602.2
 5pt x 602.25pt>
 File: ./07-images/img-Ch53/FC20-SnaHyp-x-y-curr-colored-feedrates.png Graphic f
 ile (type png)
@@ -2422,11 +2432,11 @@ ile (type png)
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-SnaHyp-x-y-curr-colored-feed
 rates.png  used on input line 21.
 (pdftex.def)             Requested size: 446.2658pt x 446.28291pt.
-) [37 <./07-images/img-Ch53/FC20-SnaHyp-x-y-curr-colored-feedrates.png>]
+) [38 <./07-images/img-Ch53/FC20-SnaHyp-x-y-curr-colored-feedrates.png>]
 \openout2 = `./Chap-53-tex/Ribbon-10L-feedrate.aux'.
 
  (./Chap-53-tex/Ribbon-10L-feedrate.tex
-<./07-images/img-Ch53/FC20-Ribbon-10L-x-y-curr-feedrates.png, id=666, 758.835pt
+<./07-images/img-Ch53/FC20-Ribbon-10L-x-y-curr-feedrates.png, id=743, 758.835pt
  x 751.80875pt>
 File: ./07-images/img-Ch53/FC20-Ribbon-10L-x-y-curr-feedrates.png Graphic file 
 (type png)
@@ -2434,11 +2444,11 @@ File: ./07-images/img-Ch53/FC20-Ribbon-10L-x-y-curr-feedrates.png Graphic file
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-Ribbon-10L-x-y-curr-feedrate
 s.png  used on input line 7.
 (pdftex.def)             Requested size: 446.2658pt x 442.14082pt.
- [38
+ [39
 
 
  <./07-images/img-Ch53/FC20-Ribbon-10L-x-y-curr-feedrates.png>]
-<./07-images/img-Ch53/FC20-Ribbon-10L-x-y-curr-colored-feedrates.png, id=673, 6
+<./07-images/img-Ch53/FC20-Ribbon-10L-x-y-curr-colored-feedrates.png, id=750, 6
 02.25pt x 602.25pt>
 File: ./07-images/img-Ch53/FC20-Ribbon-10L-x-y-curr-colored-feedrates.png Graph
 ic file (type png)
@@ -2446,11 +2456,11 @@ ic file (type png)
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-Ribbon-10L-x-y-curr-colored-
 feedrates.png  used on input line 21.
 (pdftex.def)             Requested size: 446.2658pt x 446.28291pt.
-) [39 <./07-images/img-Ch53/FC20-Ribbon-10L-x-y-curr-colored-feedrates.png>]
+) [40 <./07-images/img-Ch53/FC20-Ribbon-10L-x-y-curr-colored-feedrates.png>]
 \openout2 = `./Chap-53-tex/Ribbon-100L-feedrate.aux'.
 
  (./Chap-53-tex/Ribbon-100L-feedrate.tex
-<./07-images/img-Ch53/FC20-Ribbon-100L-x-y-curr-feedrates.png, id=681, 758.835p
+<./07-images/img-Ch53/FC20-Ribbon-100L-x-y-curr-feedrates.png, id=758, 758.835p
 t x 751.80875pt>
 File: ./07-images/img-Ch53/FC20-Ribbon-100L-x-y-curr-feedrates.png Graphic file
  (type png)
@@ -2459,11 +2469,11 @@ Package pdftex.def Info: ./07-images/img-Ch53/FC20-Ribbon-100L-x-y-curr-feedrat
 es.png  used on input line 7.
 (pdftex.def)             Requested size: 446.2658pt x 442.14082pt.
 
-[40
+[41
 
 
  <./07-images/img-Ch53/FC20-Ribbon-100L-x-y-curr-feedrates.png>]
-<./07-images/img-Ch53/FC20-Ribbon-100L-x-y-curr-colored-feedrates.png, id=688, 
+<./07-images/img-Ch53/FC20-Ribbon-100L-x-y-curr-colored-feedrates.png, id=765, 
 602.25pt x 602.25pt>
 File: ./07-images/img-Ch53/FC20-Ribbon-100L-x-y-curr-colored-feedrates.png Grap
 hic file (type png)
@@ -2471,13 +2481,169 @@ hic file (type png)
 Package pdftex.def Info: ./07-images/img-Ch53/FC20-Ribbon-100L-x-y-curr-colored
 -feedrates.png  used on input line 21.
 (pdftex.def)             Requested size: 446.2658pt x 446.28291pt.
-) [41 <./07-images/img-Ch53/FC20-Ribbon-100L-x-y-curr-colored-feedrates.png>]
-(./Chapter-54-Interpolated-Points-Distribution.tex)
+) [42 <./07-images/img-Ch53/FC20-Ribbon-100L-x-y-curr-colored-feedrates.png>]
+(./Chapter-54-Interpolated-Points-Distribution.tex) [43
 
+]
+\openout2 = `./Chap-54-tex/Teardrop-interpolated-points.aux'.
+
+
+(./Chap-54-tex/Teardrop-interpolated-points.tex
+<./07-images/img-Ch54/Img-01-Teardrop-u-histogram.png, id=780, 731.73375pt x 75
+5.82375pt>
+File: ./07-images/img-Ch54/Img-01-Teardrop-u-histogram.png Graphic file (type p
+ng)
+<use ./07-images/img-Ch54/Img-01-Teardrop-u-histogram.png>
+Package pdftex.def Info: ./07-images/img-Ch54/Img-01-Teardrop-u-histogram.png  
+used on input line 6.
+(pdftex.def)             Requested size: 446.2658pt x 460.95955pt.
+) [44
+
+ <./07-images/img-Ch54/Img-01-Teardrop-u-histogram.png>]
+\openout2 = `./Chap-54-tex/Butterfly-interpolated-points.aux'.
+
+ (./Chap-54-tex/Butterfly-interpolated-points.tex
+<./07-images/img-Ch54/Img-02-Butterfly-u-histogram.png, id=787, 738.76pt x 752.
+8125pt>
+File: ./07-images/img-Ch54/Img-02-Butterfly-u-histogram.png Graphic file (type 
+png)
+<use ./07-images/img-Ch54/Img-02-Butterfly-u-histogram.png>
+Package pdftex.def Info: ./07-images/img-Ch54/Img-02-Butterfly-u-histogram.png 
+ used on input line 6.
+(pdftex.def)             Requested size: 446.2658pt x 454.758pt.
+) [45
+
+
+ <./07-images/img-Ch54/Img-02-Butterfly-u-histogram.png>]
+\openout2 = `./Chap-54-tex/Ellipse-interpolated-points.aux'.
+
+
+(./Chap-54-tex/Ellipse-interpolated-points.tex
+<./07-images/img-Ch54/Img-03-Ellipse-u-histogram.png, id=794, 735.74875pt x 754
+.82pt>
+File: ./07-images/img-Ch54/Img-03-Ellipse-u-histogram.png Graphic file (type pn
+g)
+<use ./07-images/img-Ch54/Img-03-Ellipse-u-histogram.png>
+Package pdftex.def Info: ./07-images/img-Ch54/Img-03-Ellipse-u-histogram.png  u
+sed on input line 6.
+(pdftex.def)             Requested size: 446.2658pt x 457.84808pt.
+) [46
+
+
+ <./07-images/img-Ch54/Img-03-Ellipse-u-histogram.png>]
+\openout2 = `./Chap-54-tex/Skewed-Astroid-interpolated-points.aux'.
+
+
+(./Chap-54-tex/Skewed-Astroid-interpolated-points.tex
+<./07-images/img-Ch54/Img-04-Skewed-Astroid-u-histogram.png, id=801, 765.86125p
+t x 751.80875pt>
+File: ./07-images/img-Ch54/Img-04-Skewed-Astroid-u-histogram.png Graphic file (
+type png)
+<use ./07-images/img-Ch54/Img-04-Skewed-Astroid-u-histogram.png>
+Package pdftex.def Info: ./07-images/img-Ch54/Img-04-Skewed-Astroid-u-histogram
+.png  used on input line 6.
+(pdftex.def)             Requested size: 446.2658pt x 438.07985pt.
+) [47
+
+
+ <./07-images/img-Ch54/Img-04-Skewed-Astroid-u-histogram.png>]
+\openout2 = `./Chap-54-tex/Circle-interpolated-points.aux'.
+
+
+(./Chap-54-tex/Circle-interpolated-points.tex
+<./07-images/img-Ch54/Img-05-Circle-u-histogram.png, id=808, 754.82pt x 760.842
+5pt>
+File: ./07-images/img-Ch54/Img-05-Circle-u-histogram.png Graphic file (type png
+)
+<use ./07-images/img-Ch54/Img-05-Circle-u-histogram.png>
+Package pdftex.def Info: ./07-images/img-Ch54/Img-05-Circle-u-histogram.png  us
+ed on input line 6.
+(pdftex.def)             Requested size: 446.2658pt x 449.82195pt.
+) [48
+
+
+ <./07-images/img-Ch54/Img-05-Circle-u-histogram.png>]
+\openout2 = `./Chap-54-tex/AstEpi-interpolated-points.aux'.
+
+ (./Chap-54-tex/AstEpi-interpolated-points.tex
+<./07-images/img-Ch54/Img-06-AstEpi-u-histogram.png, id=816, 772.8875pt x 752.8
+125pt>
+File: ./07-images/img-Ch54/Img-06-AstEpi-u-histogram.png Graphic file (type png
+)
+<use ./07-images/img-Ch54/Img-06-AstEpi-u-histogram.png>
+Package pdftex.def Info: ./07-images/img-Ch54/Img-06-AstEpi-u-histogram.png  us
+ed on input line 6.
+(pdftex.def)             Requested size: 446.2658pt x 434.67876pt.
+)
+[49
+
+
+ <./07-images/img-Ch54/Img-06-AstEpi-u-histogram.png>]
+\openout2 = `./Chap-54-tex/Snailshell-interpolated-points.aux'.
+
+
+(./Chap-54-tex/Snailshell-interpolated-points.tex
+<./07-images/img-Ch54/Img-07-Snailshell-u-histogram.png, id=823, 748.7975pt x 7
+56.8275pt>
+File: ./07-images/img-Ch54/Img-07-Snailshell-u-histogram.png Graphic file (type
+ png)
+<use ./07-images/img-Ch54/Img-07-Snailshell-u-histogram.png>
+Package pdftex.def Info: ./07-images/img-Ch54/Img-07-Snailshell-u-histogram.png
+  used on input line 6.
+(pdftex.def)             Requested size: 446.2658pt x 451.05127pt.
+) [50
+
+
+ <./07-images/img-Ch54/Img-07-Snailshell-u-histogram.png>]
+\openout2 = `./Chap-54-tex/SnaHyp-interpolated-points.aux'.
+
+ (./Chap-54-tex/SnaHyp-interpolated-points.tex
+<./07-images/img-Ch54/Img-08-SnaHyp-u-histogram.png, id=830, 776.9025pt x 752.8
+125pt>
+File: ./07-images/img-Ch54/Img-08-SnaHyp-u-histogram.png Graphic file (type png
+)
+<use ./07-images/img-Ch54/Img-08-SnaHyp-u-histogram.png>
+Package pdftex.def Info: ./07-images/img-Ch54/Img-08-SnaHyp-u-histogram.png  us
+ed on input line 6.
+(pdftex.def)             Requested size: 446.2658pt x 432.4388pt.
+) [51
+
+
+ <./07-images/img-Ch54/Img-08-SnaHyp-u-histogram.png>]
+\openout2 = `./Chap-54-tex/Ribbon-10L-interpolated-points.aux'.
+
+
+(./Chap-54-tex/Ribbon-10L-interpolated-points.tex
+<./07-images/img-Ch54/Img-09-Ribbon-10L-u-histogram.png, id=837, 766.865pt x 75
+8.835pt>
+File: ./07-images/img-Ch54/Img-09-Ribbon-10L-u-histogram.png Graphic file (type
+ png)
+<use ./07-images/img-Ch54/Img-09-Ribbon-10L-u-histogram.png>
+Package pdftex.def Info: ./07-images/img-Ch54/Img-09-Ribbon-10L-u-histogram.png
+  used on input line 6.
+(pdftex.def)             Requested size: 446.2658pt x 441.59514pt.
+) [52
+
+
+ <./07-images/img-Ch54/Img-09-Ribbon-10L-u-histogram.png>]
+\openout2 = `./Chap-54-tex/Ribbon-100L-interpolated-points.aux'.
+
+
+(./Chap-54-tex/Ribbon-100L-interpolated-points.tex
+<./07-images/img-Ch54/Img-10-Ribbon-100L-u-histogram.png, id=845, 765.86125pt x
+ 753.81625pt>
+File: ./07-images/img-Ch54/Img-10-Ribbon-100L-u-histogram.png Graphic file (typ
+e png)
+<use ./07-images/img-Ch54/Img-10-Ribbon-100L-u-histogram.png>
+Package pdftex.def Info: ./07-images/img-Ch54/Img-10-Ribbon-100L-u-histogram.pn
+g  used on input line 6.
+(pdftex.def)             Requested size: 446.2658pt x 439.24965pt.
+) [53
+
+
+ <./07-images/img-Ch54/Img-10-Ribbon-100L-u-histogram.png>] 
 AED: pageslts setting LastPage 
-[42
 
-] 
 AED: lastpage setting LastPage
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -2493,7 +2659,7 @@ AED: pageslts setting VeryLastPage via AfterLastShipout
 AED: pageslts setting LastPages via AfterLastShipout 
 
 
-Package pageslts Info: Total number of pages is odd.
+Package pageslts Info: Total number of pages is even.
 
 
 (./main-09-Report-Latex-PhD.aux (./00-preliminaries/Title-Cover.aux)
@@ -2512,12 +2678,21 @@ Package pageslts Info: Total number of pages is odd.
 ) (./Chap-53-tex/Circle-feedrate.aux) (./Chap-53-tex/AstEpi-feedrate.aux)
 (./Chap-53-tex/Snailshell-feedrate.aux) (./Chap-53-tex/SnaHyp-feedrate.aux)
 (./Chap-53-tex/Ribbon-10L-feedrate.aux) (./Chap-53-tex/Ribbon-100L-feedrate.aux
-))
+) (./Chap-54-tex/Teardrop-interpolated-points.aux)
+(./Chap-54-tex/Butterfly-interpolated-points.aux)
+(./Chap-54-tex/Ellipse-interpolated-points.aux)
+(./Chap-54-tex/Skewed-Astroid-interpolated-points.aux)
+(./Chap-54-tex/Circle-interpolated-points.aux)
+(./Chap-54-tex/AstEpi-interpolated-points.aux)
+(./Chap-54-tex/Snailshell-interpolated-points.aux)
+(./Chap-54-tex/SnaHyp-interpolated-points.aux)
+(./Chap-54-tex/Ribbon-10L-interpolated-points.aux)
+(./Chap-54-tex/Ribbon-100L-interpolated-points.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 440.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 440.
 Package rerunfilecheck Info: File `main-09-Report-Latex-PhD.out' has not change
 d.
-(rerunfilecheck)             Checksum: E87AF21BB515EB8387E0583E9E95BE65;3877.
+(rerunfilecheck)             Checksum: ACB7D99589F63354A6338FB16F4E3B61;4865.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2525,10 +2700,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 440.
  ) 
 Here is how much of TeX's memory you used:
- 51775 strings out of 483056
- 1175826 string characters out of 5963250
- 1758425 words of memory out of 5000000
- 65561 multiletter control sequences out of 15000+600000
+ 51998 strings out of 483056
+ 1185026 string characters out of 5963250
+ 1771611 words of memory out of 5000000
+ 65671 multiletter control sequences out of 15000+600000
  540689 words of font info for 56 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  64i,22n,103p,1062b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2542,10 +2717,10 @@ type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy8.pfb>
-Output written on main-09-Report-Latex-PhD.pdf (43 pages, 1800189 bytes).
+Output written on main-09-Report-Latex-PhD.pdf (54 pages, 2425760 bytes).
 PDF statistics:
- 772 PDF objects out of 1000 (max. 8388607)
- 621 compressed objects within 7 object streams
- 145 named destinations out of 1000 (max. 500000)
- 742 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 925 PDF objects out of 1000 (max. 8388607)
+ 752 compressed objects within 8 object streams
+ 176 named destinations out of 1000 (max. 500000)
+ 872 words of extra memory for PDF output out of 10000 (max. 10000000)
 

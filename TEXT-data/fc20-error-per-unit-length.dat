@@ -1,0 +1,13 @@
+# File: fc20-error-per-unit-length.dat
+
+Tear	7.011662E-05
+Butt	9.925040E-06
+Ellip	3.311296E-05
+SkAst 2.316711E-06
+Circle	2.203796E-06
+AstEpi 3.851720E-06
+Snail	4.524898E-05
+SnHyp	8.356964E-06
+# Ribbon-10L	4.819407E-04
+Rib100L	4.822058E-05
+

@@ -1,0 +1,14 @@
+# File: fc10-error-per-unit-length.dat
+# Curve Error/Length   
+
+Tear 5.704288E-05
+Butt 5.445093E-06
+Ellip 1.386948E-05
+SkAst 1.158519E-06
+Circle 2.203790E-06
+AstEpi 1.971493E-06
+Snail 3.691654E-05
+SnHyp 5.943528E-06
+# Rib10L 4.820055E-04
+Rib100L 4.751834E-05
+
