@@ -1,0 +1,40 @@
+# File: 10-Ribbon-100L-total-interpolated-points.dat
+
+# CURVE	FC10	FC20	FC25	FC30	FC40
+
+# AstEpi	
+# FC10 76275	
+# FC20 38169	
+# FC25 30563	
+# FC30 25499	
+# FC40 19184
+
+# Snailshell	
+# FC10 15621	
+# FC20 9883	
+# FC25 8935	
+# FC30 8370	
+# FC40 7766
+
+# SnaHyp	
+# FC10 38672	
+# FC20 20223	
+# FC25 16618	
+# FC30 11497	
+# FC40 8889
+
+# Ribbon-10L	
+# FC10 7351	
+# FC20 7352	
+# FC25 7352	
+# FC30 7353	
+# FC40 7353
+
+# Ribbon-100L	
+FC10 7480	
+FC20 7348	
+FC25 7349	
+FC30 7349	
+FC40 7350
+
+

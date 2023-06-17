@@ -1,0 +1,170 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Cover Page}{1}{section*.1}%
+\contentsline {chapter}{Abstract}{1}{section*.3}%
+\contentsline {chapter}{Acknowledgement}{1}{section*.4}%
+\contentsline {chapter}{Acronyms}{1}{section*.5}%
+\contentsline {chapter}{Table of Contents}{1}{section*.6}%
+\contentsline {chapter}{Contents}{1}{chapter*.7}%
+\contentsline {chapter}{List of Figures}{5}{chapter*.9}%
+\contentsline {chapter}{List of Tables}{6}{chapter*.11}%
+\contentsline {chapter}{Listings}{8}{chapter*.13}%
+\contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{9}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Types of CNC Machines}{9}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}CNC Milling Machine}{9}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}CNC Lathe Machine}{10}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}CNC Router Machine}{10}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}CNC 3D Printing}{10}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Recent Designs in CNC Systems}{10}{subsection.1.2.5}%
+\contentsline {section}{\numberline {1.3}Basic architecture of a typical CNC system}{11}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Process Flow for a typical CNC system}{12}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Functional block diagram for a typical CNC system}{13}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}CNC operations in CAD/CAM/CNC systems}{14}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Interpreter and interpolator}{15}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Interpolation Task}{15}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Starting point of CNC operations}{15}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}Online versus Offline processing}{15}{subsection.1.5.5}%
+\contentsline {subsection}{\numberline {1.5.6}Realtime processing}{16}{subsection.1.5.6}%
+\contentsline {subsection}{\numberline {1.5.7}Parallel processing}{17}{subsection.1.5.7}%
+\contentsline {subsection}{\numberline {1.5.8}Recent interpolation Methods}{18}{subsection.1.5.8}%
+\contentsline {section}{\numberline {1.6}CNC System Hardware and Software}{21}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}CNC Hardware Components}{21}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}CNC Software Components}{21}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}CNC Intepreter}{22}{subsection.1.6.3}%
+\contentsline {subsubsection}{\numberline {1.6.3.1}Primary memory data storage}{22}{subsubsection.1.6.3.1}%
+\contentsline {subsubsection}{\numberline {1.6.3.2}Slow interpretation execution}{22}{subsubsection.1.6.3.2}%
+\contentsline {subsubsection}{\numberline {1.6.3.3}Efficient data I/O methods}{22}{subsubsection.1.6.3.3}%
+\contentsline {subsection}{\numberline {1.6.4}CNC Interpolator}{23}{subsection.1.6.4}%
+\contentsline {subsubsection}{\numberline {1.6.4.1}Secondary memory or file data storage}{23}{subsubsection.1.6.4.1}%
+\contentsline {subsubsection}{\numberline {1.6.4.2}Interpolator main task}{24}{subsubsection.1.6.4.2}%
+\contentsline {subsubsection}{\numberline {1.6.4.3}CNC Accuracy - Basic Length Unit (BLU)}{24}{subsubsection.1.6.4.3}%
+\contentsline {subsubsection}{\numberline {1.6.4.4}Velocity - Signal Pulse frequency}{24}{subsubsection.1.6.4.4}%
+\contentsline {subsubsection}{\numberline {1.6.4.5}Tool Velocity Profile}{25}{subsubsection.1.6.4.5}%
+\contentsline {subsubsection}{\numberline {1.6.4.6}Velocity profile controller}{26}{subsubsection.1.6.4.6}%
+\contentsline {subsection}{\numberline {1.6.5}CNC Signal Driver software}{27}{subsection.1.6.5}%
+\contentsline {subsection}{\numberline {1.6.6}CNC Device Driver hardware}{29}{subsection.1.6.6}%
+\contentsline {subsubsection}{\numberline {1.6.6.1}Research pulse generator devices}{29}{subsubsection.1.6.6.1}%
+\contentsline {subsection}{\numberline {1.6.7}CNC Motor Control Driver hardware}{30}{subsection.1.6.7}%
+\contentsline {subsection}{\numberline {1.6.8}CNC Electric Motor hardware}{30}{subsection.1.6.8}%
+\contentsline {subsection}{\numberline {1.6.9}CNC Control Loop design}{30}{subsection.1.6.9}%
+\contentsline {subsubsection}{\numberline {1.6.9.1}Control objectives}{30}{subsubsection.1.6.9.1}%
+\contentsline {subsubsection}{\numberline {1.6.9.2}Control loop operations}{31}{subsubsection.1.6.9.2}%
+\contentsline {subsubsection}{\numberline {1.6.9.3}Control concepts}{31}{subsubsection.1.6.9.3}%
+\contentsline {subsubsection}{\numberline {1.6.9.4}Programming principles in control}{31}{subsubsection.1.6.9.4}%
+\contentsline {subsubsection}{\numberline {1.6.9.5}Issues in control loop algorithm}{32}{subsubsection.1.6.9.5}%
+\contentsline {subsection}{\numberline {1.6.10}Commercial CNC Control Software}{32}{subsection.1.6.10}%
+\contentsline {subsubsection}{\numberline {1.6.10.1}High end CNC machines}{33}{subsubsection.1.6.10.1}%
+\contentsline {subsubsection}{\numberline {1.6.10.2}Low end CNC Machines}{33}{subsubsection.1.6.10.2}%
+\contentsline {subsubsection}{\numberline {1.6.10.3}Survey results}{33}{subsubsection.1.6.10.3}%
+\contentsline {section}{\numberline {1.7}Research Motivations}{34}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Scope of Research}{36}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Proposed Research Title}{36}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Expected knowledge contributions}{36}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Summary on Introduction}{37}{section.1.11}%
+\contentsline {chapter}{\numberline {2}Literature Survey}{38}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Reviews - CNC State of the Art}{38}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Overview of current issues in CNC}{38}{section.2.2}%
+\contentsline {section}{\numberline {2.3}G-Codes Standards}{38}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}NGC RS274D G-Codes}{39}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}NURBS G-Codes}{39}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}STEP-NC G-Codes}{40}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Reference-Pulse interpolation}{40}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Reference-Word interpolation}{41}{section.2.5}%
+\contentsline {section}{\numberline {2.6}NURBS CNC Interpolations}{42}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Contouring control and Error Compensation}{44}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Look-ahead control}{44}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Feedrate Filtering}{45}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Realtime and Parallel Computing}{46}{section.2.10}%
+\contentsline {section}{\numberline {2.11}AI Approaches in CNC Machining}{47}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Commercial versus Open CNC systems}{47}{section.2.12}%
+\contentsline {section}{\numberline {2.13}Embedded devices in CNC systems}{47}{section.2.13}%
+\contentsline {section}{\numberline {2.14}Summary on Literature Survey}{48}{section.2.14}%
+\contentsline {chapter}{\numberline {3}Research Methodology}{49}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Research Objectives}{49}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Research scope}{49}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}G-Codes Coverage}{49}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Reference-Pulse Interpolation}{49}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Look-ahead control}{50}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Feedrate compensation}{50}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Realtime and parallel execution}{50}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.1.7}Parallel execution strategies}{50}{subsection.3.1.7}%
+\contentsline {subsection}{\numberline {3.1.8}Extension to 5-axis interpolation}{51}{subsection.3.1.8}%
+\contentsline {section}{\numberline {3.2}Research Methodology}{51}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Software engineering perspective}{51}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Software engineering methods}{51}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Linux, open source and free software}{52}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Motion control devices}{52}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Research Validation}{53}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Summary on Research Methodology}{54}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Software Interpolator Design}{55}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Simulation Experiment}{56}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Selected Parametric Equations}{56}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Teardrop parametric equation}{57}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Butterfly parametric equation}{58}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Ellipse parametric equation}{59}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Skewed-Astroid parametric equation}{60}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Circle parametric equation}{61}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}AstEpi parametric equation}{62}{subsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.1.7}Snailshell parametric equation}{63}{subsection.5.1.7}%
+\contentsline {subsection}{\numberline {5.1.8}SnaHyp parametric equation}{64}{subsection.5.1.8}%
+\contentsline {subsection}{\numberline {5.1.9}Ribbon-10L parametric equation}{65}{subsection.5.1.9}%
+\contentsline {subsection}{\numberline {5.1.10}Ribbon-100L parametric equation}{66}{subsection.5.1.10}%
+\contentsline {section}{\numberline {5.2}Total Interpolated Points}{67}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Teardrop profile of interpolated points}{68}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Butterfly profile of interpolated points}{69}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Ellipse profile of interpolated points}{70}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Skewed-Astroid profile of interpolated points}{71}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Circle profile of interpolated points}{72}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Astroid-Epicycloid profile of interpolated points}{73}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}Snailshell-Hypotrocoid profile of interpolated points}{74}{subsection.5.2.7}%
+\contentsline {subsection}{\numberline {5.2.8}Snailshell profile of interpolated points}{75}{subsection.5.2.8}%
+\contentsline {subsection}{\numberline {5.2.9}Ribbon-10L profile of interpolated points}{76}{subsection.5.2.9}%
+\contentsline {subsection}{\numberline {5.2.10}Ribbon-100L profile of interpolated points}{77}{subsection.5.2.10}%
+\contentsline {section}{\numberline {5.3}Experimental Run Results}{78}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Teardrop and Butterfly Run Data}{79}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Ellipse and Skewed-Astroid Run Data}{80}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Circle and Astepi Run Data}{81}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Snailshell and SnaHyp Run Data}{82}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Ribbon-10L and Ribbon-100L Run Data}{83}{subsection.5.3.5}%
+\contentsline {section}{\numberline {5.4}Results Feedrate Profile}{84}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Teardrop FC20 u versus x-y-curr feedrate profile}{85}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Teardrop FC20 x-y and colored feedrate profile}{86}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Butterfly FC20 u versus x-y-curr feedrate profile}{87}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Butterfly FC20 x-y and colored feedrate profile}{88}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Ellipse FC20 u versus x-y-curr feedrate profile}{89}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.6}Ellipse FC20 x-y and colored feedrate profile}{90}{subsection.5.4.6}%
+\contentsline {subsection}{\numberline {5.4.7}Skewed-Astroid FC20 u versus x-y-curr feedrate profile}{91}{subsection.5.4.7}%
+\contentsline {subsection}{\numberline {5.4.8}Skewed-Astroid FC20 x-y and colored feedrate profile}{92}{subsection.5.4.8}%
+\contentsline {subsection}{\numberline {5.4.9}Circle FC20 u versus x-y-curr feedrate profile}{93}{subsection.5.4.9}%
+\contentsline {subsection}{\numberline {5.4.10}Circle FC20 x-y and colored feedrate profile}{94}{subsection.5.4.10}%
+\contentsline {subsection}{\numberline {5.4.11}AstEpi FC20 u versus x-y-curr feedrate profile}{95}{subsection.5.4.11}%
+\contentsline {subsection}{\numberline {5.4.12}AstEpi FC20 x-y and colored feedrate profile}{96}{subsection.5.4.12}%
+\contentsline {subsection}{\numberline {5.4.13}Snailshell FC20 u versus x-y-curr feedrate profile}{97}{subsection.5.4.13}%
+\contentsline {subsection}{\numberline {5.4.14}Snailshell FC20 x-y and colored feedrate profile}{98}{subsection.5.4.14}%
+\contentsline {subsection}{\numberline {5.4.15}SnaHyp FC20 u versus x-y-curr feedrate profile}{99}{subsection.5.4.15}%
+\contentsline {subsection}{\numberline {5.4.16}SnaHyp FC20 x-y and colored feedrate profile}{100}{subsection.5.4.16}%
+\contentsline {subsection}{\numberline {5.4.17}Ribbon-10L FC20 u versus x-y-curr feedrate profile}{101}{subsection.5.4.17}%
+\contentsline {subsection}{\numberline {5.4.18}Ribbon-10L FC20 x-y and colored feedrate profile}{102}{subsection.5.4.18}%
+\contentsline {subsection}{\numberline {5.4.19}Ribbon-100L FC20 u versus x-y-curr feedrate profile}{103}{subsection.5.4.19}%
+\contentsline {subsection}{\numberline {5.4.20}Ribbon-100L FC20 x-y and colored feedrate profile}{104}{subsection.5.4.20}%
+\contentsline {section}{\numberline {5.5}Error per unit length traversed}{105}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}FC10 - Error per unit length traversed}{106}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}FC20 - Error per unit length traversed}{107}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}FC25 - Error per unit length traversed}{108}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}FC30 - Error per unit length traversed}{109}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.5}FC40 - Error per unit length traversed}{110}{subsection.5.5.5}%
+\contentsline {section}{\numberline {5.6}Histogram of Interpolated Points}{111}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Teardrop distribution of interpolated points}{112}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Butterfly distribution of interpolated points}{113}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Ellipse distribution of interpolated points}{114}{subsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.6.4}Skewed-Astroid distribution of interpolated points}{115}{subsection.5.6.4}%
+\contentsline {subsection}{\numberline {5.6.5}Circle distribution of interpolated points}{116}{subsection.5.6.5}%
+\contentsline {subsection}{\numberline {5.6.6}AstEpi distribution of interpolated points}{117}{subsection.5.6.6}%
+\contentsline {subsection}{\numberline {5.6.7}Snailshell distribution of interpolated points}{118}{subsection.5.6.7}%
+\contentsline {subsection}{\numberline {5.6.8}SnaHyp distribution of interpolated points}{119}{subsection.5.6.8}%
+\contentsline {subsection}{\numberline {5.6.9}Ribbon-10L distribution of interpolated points}{120}{subsection.5.6.9}%
+\contentsline {subsection}{\numberline {5.6.10}Ribbon-100L distribution of interpolated points}{121}{subsection.5.6.10}%
+\contentsline {section}{\numberline {5.7}Experimental Validation}{122}{section.5.7}%
+\contentsline {chapter}{\numberline {6}Analyses and Discussion}{123}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Conclusion}{124}{chapter.7}%
+\contentsline {chapter}{\numberline {1}Appendices}{125}{appendix.A}%

@@ -1,0 +1,151 @@
+\BOOKMARK [0][-]{section*.1}{Cover Page}{}% 1
+\BOOKMARK [0][-]{section*.3}{Abstract}{}% 2
+\BOOKMARK [0][-]{section*.4}{Acknowledgement}{}% 3
+\BOOKMARK [0][-]{section*.5}{Acronyms}{}% 4
+\BOOKMARK [0][-]{section*.6}{Table of Contents}{}% 5
+\BOOKMARK [0][-]{chapter*.7}{Contents}{}% 6
+\BOOKMARK [0][-]{chapter*.9}{List of Figures}{}% 7
+\BOOKMARK [0][-]{chapter*.11}{List of Tables}{}% 8
+\BOOKMARK [0][-]{chapter*.13}{Listings}{}% 9
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 10
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.2}{Types of CNC Machines}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.2.1}{CNC Milling Machine}{section.1.2}% 13
+\BOOKMARK [2][-]{subsection.1.2.2}{CNC Lathe Machine}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.3}{CNC Router Machine}{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.4}{CNC 3D Printing}{section.1.2}% 16
+\BOOKMARK [2][-]{subsection.1.2.5}{Recent Designs in CNC Systems}{section.1.2}% 17
+\BOOKMARK [1][-]{section.1.3}{Basic architecture of a typical CNC system}{chapter.1}% 18
+\BOOKMARK [1][-]{section.1.4}{Process Flow for a typical CNC system}{chapter.1}% 19
+\BOOKMARK [1][-]{section.1.5}{Functional block diagram for a typical CNC system}{chapter.1}% 20
+\BOOKMARK [2][-]{subsection.1.5.1}{CNC operations in CAD/CAM/CNC systems}{section.1.5}% 21
+\BOOKMARK [2][-]{subsection.1.5.2}{Interpreter and interpolator}{section.1.5}% 22
+\BOOKMARK [2][-]{subsection.1.5.3}{Interpolation Task}{section.1.5}% 23
+\BOOKMARK [2][-]{subsection.1.5.4}{Starting point of CNC operations}{section.1.5}% 24
+\BOOKMARK [2][-]{subsection.1.5.5}{Online versus Offline processing}{section.1.5}% 25
+\BOOKMARK [2][-]{subsection.1.5.6}{Realtime processing}{section.1.5}% 26
+\BOOKMARK [2][-]{subsection.1.5.7}{Parallel processing}{section.1.5}% 27
+\BOOKMARK [2][-]{subsection.1.5.8}{Recent interpolation Methods}{section.1.5}% 28
+\BOOKMARK [1][-]{section.1.6}{CNC System Hardware and Software}{chapter.1}% 29
+\BOOKMARK [2][-]{subsection.1.6.1}{CNC Hardware Components}{section.1.6}% 30
+\BOOKMARK [2][-]{subsection.1.6.2}{CNC Software Components}{section.1.6}% 31
+\BOOKMARK [2][-]{subsection.1.6.3}{CNC Intepreter}{section.1.6}% 32
+\BOOKMARK [2][-]{subsection.1.6.4}{CNC Interpolator}{section.1.6}% 33
+\BOOKMARK [2][-]{subsection.1.6.5}{CNC Signal Driver software}{section.1.6}% 34
+\BOOKMARK [2][-]{subsection.1.6.6}{CNC Device Driver hardware}{section.1.6}% 35
+\BOOKMARK [2][-]{subsection.1.6.7}{CNC Motor Control Driver hardware}{section.1.6}% 36
+\BOOKMARK [2][-]{subsection.1.6.8}{CNC Electric Motor hardware}{section.1.6}% 37
+\BOOKMARK [2][-]{subsection.1.6.9}{CNC Control Loop design}{section.1.6}% 38
+\BOOKMARK [2][-]{subsection.1.6.10}{Commercial CNC Control Software}{section.1.6}% 39
+\BOOKMARK [1][-]{section.1.7}{Research Motivations}{chapter.1}% 40
+\BOOKMARK [1][-]{section.1.8}{Scope of Research}{chapter.1}% 41
+\BOOKMARK [1][-]{section.1.9}{Proposed Research Title}{chapter.1}% 42
+\BOOKMARK [1][-]{section.1.10}{Expected knowledge contributions}{chapter.1}% 43
+\BOOKMARK [1][-]{section.1.11}{Summary on Introduction}{chapter.1}% 44
+\BOOKMARK [0][-]{chapter.2}{Literature Survey}{}% 45
+\BOOKMARK [1][-]{section.2.1}{Reviews - CNC State of the Art}{chapter.2}% 46
+\BOOKMARK [1][-]{section.2.2}{Overview of current issues in CNC}{chapter.2}% 47
+\BOOKMARK [1][-]{section.2.3}{G-Codes Standards}{chapter.2}% 48
+\BOOKMARK [2][-]{subsection.2.3.1}{NGC RS274D G-Codes}{section.2.3}% 49
+\BOOKMARK [2][-]{subsection.2.3.2}{NURBS G-Codes}{section.2.3}% 50
+\BOOKMARK [2][-]{subsection.2.3.3}{STEP-NC G-Codes}{section.2.3}% 51
+\BOOKMARK [1][-]{section.2.4}{Reference-Pulse interpolation}{chapter.2}% 52
+\BOOKMARK [1][-]{section.2.5}{Reference-Word interpolation}{chapter.2}% 53
+\BOOKMARK [1][-]{section.2.6}{NURBS CNC Interpolations}{chapter.2}% 54
+\BOOKMARK [1][-]{section.2.7}{Contouring control and Error Compensation}{chapter.2}% 55
+\BOOKMARK [1][-]{section.2.8}{Look-ahead control}{chapter.2}% 56
+\BOOKMARK [1][-]{section.2.9}{Feedrate Filtering}{chapter.2}% 57
+\BOOKMARK [1][-]{section.2.10}{Realtime and Parallel Computing}{chapter.2}% 58
+\BOOKMARK [1][-]{section.2.11}{AI Approaches in CNC Machining}{chapter.2}% 59
+\BOOKMARK [1][-]{section.2.12}{Commercial versus Open CNC systems}{chapter.2}% 60
+\BOOKMARK [1][-]{section.2.13}{Embedded devices in CNC systems}{chapter.2}% 61
+\BOOKMARK [1][-]{section.2.14}{Summary on Literature Survey}{chapter.2}% 62
+\BOOKMARK [0][-]{chapter.3}{Research Methodology}{}% 63
+\BOOKMARK [1][-]{section.3.1}{Research Objectives}{chapter.3}% 64
+\BOOKMARK [2][-]{subsection.3.1.1}{Research scope}{section.3.1}% 65
+\BOOKMARK [2][-]{subsection.3.1.2}{G-Codes Coverage}{section.3.1}% 66
+\BOOKMARK [2][-]{subsection.3.1.3}{Reference-Pulse Interpolation}{section.3.1}% 67
+\BOOKMARK [2][-]{subsection.3.1.4}{Look-ahead control}{section.3.1}% 68
+\BOOKMARK [2][-]{subsection.3.1.5}{Feedrate compensation}{section.3.1}% 69
+\BOOKMARK [2][-]{subsection.3.1.6}{Realtime and parallel execution}{section.3.1}% 70
+\BOOKMARK [2][-]{subsection.3.1.7}{Parallel execution strategies}{section.3.1}% 71
+\BOOKMARK [2][-]{subsection.3.1.8}{Extension to 5-axis interpolation}{section.3.1}% 72
+\BOOKMARK [1][-]{section.3.2}{Research Methodology}{chapter.3}% 73
+\BOOKMARK [2][-]{subsection.3.2.1}{Software engineering perspective}{section.3.2}% 74
+\BOOKMARK [2][-]{subsection.3.2.2}{Software engineering methods}{section.3.2}% 75
+\BOOKMARK [2][-]{subsection.3.2.3}{Linux, open source and free software}{section.3.2}% 76
+\BOOKMARK [2][-]{subsection.3.2.4}{Motion control devices}{section.3.2}% 77
+\BOOKMARK [2][-]{subsection.3.2.5}{Research Validation}{section.3.2}% 78
+\BOOKMARK [1][-]{section.3.3}{Summary on Research Methodology}{chapter.3}% 79
+\BOOKMARK [0][-]{chapter.4}{Software Interpolator Design}{}% 80
+\BOOKMARK [0][-]{chapter.5}{Simulation Experiment}{}% 81
+\BOOKMARK [1][-]{section.5.1}{Selected Parametric Equations}{chapter.5}% 82
+\BOOKMARK [2][-]{subsection.5.1.1}{Teardrop parametric equation}{section.5.1}% 83
+\BOOKMARK [2][-]{subsection.5.1.2}{Butterfly parametric equation}{section.5.1}% 84
+\BOOKMARK [2][-]{subsection.5.1.3}{Ellipse parametric equation}{section.5.1}% 85
+\BOOKMARK [2][-]{subsection.5.1.4}{Skewed-Astroid parametric equation}{section.5.1}% 86
+\BOOKMARK [2][-]{subsection.5.1.5}{Circle parametric equation}{section.5.1}% 87
+\BOOKMARK [2][-]{subsection.5.1.6}{AstEpi parametric equation}{section.5.1}% 88
+\BOOKMARK [2][-]{subsection.5.1.7}{Snailshell parametric equation}{section.5.1}% 89
+\BOOKMARK [2][-]{subsection.5.1.8}{SnaHyp parametric equation}{section.5.1}% 90
+\BOOKMARK [2][-]{subsection.5.1.9}{Ribbon-10L parametric equation}{section.5.1}% 91
+\BOOKMARK [2][-]{subsection.5.1.10}{Ribbon-100L parametric equation}{section.5.1}% 92
+\BOOKMARK [1][-]{section.5.2}{Total Interpolated Points}{chapter.5}% 93
+\BOOKMARK [2][-]{subsection.5.2.1}{Teardrop profile of interpolated points}{section.5.2}% 94
+\BOOKMARK [2][-]{subsection.5.2.2}{Butterfly profile of interpolated points}{section.5.2}% 95
+\BOOKMARK [2][-]{subsection.5.2.3}{Ellipse profile of interpolated points}{section.5.2}% 96
+\BOOKMARK [2][-]{subsection.5.2.4}{Skewed-Astroid profile of interpolated points}{section.5.2}% 97
+\BOOKMARK [2][-]{subsection.5.2.5}{Circle profile of interpolated points}{section.5.2}% 98
+\BOOKMARK [2][-]{subsection.5.2.6}{Astroid-Epicycloid profile of interpolated points}{section.5.2}% 99
+\BOOKMARK [2][-]{subsection.5.2.7}{Snailshell-Hypotrocoid profile of interpolated points}{section.5.2}% 100
+\BOOKMARK [2][-]{subsection.5.2.8}{Snailshell profile of interpolated points}{section.5.2}% 101
+\BOOKMARK [2][-]{subsection.5.2.9}{Ribbon-10L profile of interpolated points}{section.5.2}% 102
+\BOOKMARK [2][-]{subsection.5.2.10}{Ribbon-100L profile of interpolated points}{section.5.2}% 103
+\BOOKMARK [1][-]{section.5.3}{Experimental Run Results}{chapter.5}% 104
+\BOOKMARK [2][-]{subsection.5.3.1}{Teardrop and Butterfly Run Data}{section.5.3}% 105
+\BOOKMARK [2][-]{subsection.5.3.2}{Ellipse and Skewed-Astroid Run Data}{section.5.3}% 106
+\BOOKMARK [2][-]{subsection.5.3.3}{Circle and Astepi Run Data}{section.5.3}% 107
+\BOOKMARK [2][-]{subsection.5.3.4}{Snailshell and SnaHyp Run Data}{section.5.3}% 108
+\BOOKMARK [2][-]{subsection.5.3.5}{Ribbon-10L and Ribbon-100L Run Data}{section.5.3}% 109
+\BOOKMARK [1][-]{section.5.4}{Results Feedrate Profile}{chapter.5}% 110
+\BOOKMARK [2][-]{subsection.5.4.1}{Teardrop FC20 u versus x-y-curr feedrate profile}{section.5.4}% 111
+\BOOKMARK [2][-]{subsection.5.4.2}{Teardrop FC20 x-y and colored feedrate profile}{section.5.4}% 112
+\BOOKMARK [2][-]{subsection.5.4.3}{Butterfly FC20 u versus x-y-curr feedrate profile}{section.5.4}% 113
+\BOOKMARK [2][-]{subsection.5.4.4}{Butterfly FC20 x-y and colored feedrate profile}{section.5.4}% 114
+\BOOKMARK [2][-]{subsection.5.4.5}{Ellipse FC20 u versus x-y-curr feedrate profile}{section.5.4}% 115
+\BOOKMARK [2][-]{subsection.5.4.6}{Ellipse FC20 x-y and colored feedrate profile}{section.5.4}% 116
+\BOOKMARK [2][-]{subsection.5.4.7}{Skewed-Astroid FC20 u versus x-y-curr feedrate profile}{section.5.4}% 117
+\BOOKMARK [2][-]{subsection.5.4.8}{Skewed-Astroid FC20 x-y and colored feedrate profile}{section.5.4}% 118
+\BOOKMARK [2][-]{subsection.5.4.9}{Circle FC20 u versus x-y-curr feedrate profile}{section.5.4}% 119
+\BOOKMARK [2][-]{subsection.5.4.10}{Circle FC20 x-y and colored feedrate profile}{section.5.4}% 120
+\BOOKMARK [2][-]{subsection.5.4.11}{AstEpi FC20 u versus x-y-curr feedrate profile}{section.5.4}% 121
+\BOOKMARK [2][-]{subsection.5.4.12}{AstEpi FC20 x-y and colored feedrate profile}{section.5.4}% 122
+\BOOKMARK [2][-]{subsection.5.4.13}{Snailshell FC20 u versus x-y-curr feedrate profile}{section.5.4}% 123
+\BOOKMARK [2][-]{subsection.5.4.14}{Snailshell FC20 x-y and colored feedrate profile}{section.5.4}% 124
+\BOOKMARK [2][-]{subsection.5.4.15}{SnaHyp FC20 u versus x-y-curr feedrate profile}{section.5.4}% 125
+\BOOKMARK [2][-]{subsection.5.4.16}{SnaHyp FC20 x-y and colored feedrate profile}{section.5.4}% 126
+\BOOKMARK [2][-]{subsection.5.4.17}{Ribbon-10L FC20 u versus x-y-curr feedrate profile}{section.5.4}% 127
+\BOOKMARK [2][-]{subsection.5.4.18}{Ribbon-10L FC20 x-y and colored feedrate profile}{section.5.4}% 128
+\BOOKMARK [2][-]{subsection.5.4.19}{Ribbon-100L FC20 u versus x-y-curr feedrate profile}{section.5.4}% 129
+\BOOKMARK [2][-]{subsection.5.4.20}{Ribbon-100L FC20 x-y and colored feedrate profile}{section.5.4}% 130
+\BOOKMARK [1][-]{section.5.5}{Error per unit length traversed}{chapter.5}% 131
+\BOOKMARK [2][-]{subsection.5.5.1}{FC10 - Error per unit length traversed}{section.5.5}% 132
+\BOOKMARK [2][-]{subsection.5.5.2}{FC20 - Error per unit length traversed}{section.5.5}% 133
+\BOOKMARK [2][-]{subsection.5.5.3}{FC25 - Error per unit length traversed}{section.5.5}% 134
+\BOOKMARK [2][-]{subsection.5.5.4}{FC30 - Error per unit length traversed}{section.5.5}% 135
+\BOOKMARK [2][-]{subsection.5.5.5}{FC40 - Error per unit length traversed}{section.5.5}% 136
+\BOOKMARK [1][-]{section.5.6}{Histogram of Interpolated Points}{chapter.5}% 137
+\BOOKMARK [2][-]{subsection.5.6.1}{Teardrop distribution of interpolated points}{section.5.6}% 138
+\BOOKMARK [2][-]{subsection.5.6.2}{Butterfly distribution of interpolated points}{section.5.6}% 139
+\BOOKMARK [2][-]{subsection.5.6.3}{Ellipse distribution of interpolated points}{section.5.6}% 140
+\BOOKMARK [2][-]{subsection.5.6.4}{Skewed-Astroid distribution of interpolated points}{section.5.6}% 141
+\BOOKMARK [2][-]{subsection.5.6.5}{Circle distribution of interpolated points}{section.5.6}% 142
+\BOOKMARK [2][-]{subsection.5.6.6}{AstEpi distribution of interpolated points}{section.5.6}% 143
+\BOOKMARK [2][-]{subsection.5.6.7}{Snailshell distribution of interpolated points}{section.5.6}% 144
+\BOOKMARK [2][-]{subsection.5.6.8}{SnaHyp distribution of interpolated points}{section.5.6}% 145
+\BOOKMARK [2][-]{subsection.5.6.9}{Ribbon-10L distribution of interpolated points}{section.5.6}% 146
+\BOOKMARK [2][-]{subsection.5.6.10}{Ribbon-100L distribution of interpolated points}{section.5.6}% 147
+\BOOKMARK [1][-]{section.5.7}{Experimental Validation}{chapter.5}% 148
+\BOOKMARK [0][-]{chapter.6}{Analyses and Discussion}{}% 149
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 150
+\BOOKMARK [0][-]{appendix.A}{Appendices}{}% 151
