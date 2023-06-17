@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  17 JUN 2023 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  17 JUN 2023 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1581,16 +1581,16 @@ LaTeX Warning: Unused global option(s):
 (./Chap-54-tex/FC25-Error-per-unit-length-traversed.aux)
 (./Chap-54-tex/FC30-Error-per-unit-length-traversed.aux)
 (./Chap-54-tex/FC40-Error-per-unit-length-traversed.aux)
-(./Chap-54-tex/Teardrop-interpolated-points.aux)
-(./Chap-54-tex/Butterfly-interpolated-points.aux)
-(./Chap-54-tex/Ellipse-interpolated-points.aux)
-(./Chap-54-tex/Skewed-Astroid-interpolated-points.aux)
-(./Chap-54-tex/Circle-interpolated-points.aux)
-(./Chap-54-tex/AstEpi-interpolated-points.aux)
-(./Chap-54-tex/Snailshell-interpolated-points.aux)
-(./Chap-54-tex/SnaHyp-interpolated-points.aux)
-(./Chap-54-tex/Ribbon-10L-interpolated-points.aux)
-(./Chap-54-tex/Ribbon-100L-interpolated-points.aux)
+(./Chap-54-tex/Teardrop-u-histogram-points.aux)
+(./Chap-54-tex/Butterfly-u-histogram-points.aux)
+(./Chap-54-tex/Ellipse-u-histogram-points.aux)
+(./Chap-54-tex/Skewed-Astroid-u-histogram-points.aux)
+(./Chap-54-tex/Circle-u-histogram-points.aux)
+(./Chap-54-tex/AstEpi-u-histogram-points.aux)
+(./Chap-54-tex/Snailshell-u-histogram-points.aux)
+(./Chap-54-tex/SnaHyp-u-histogram-points.aux)
+(./Chap-54-tex/Ribbon-10L-u-histogram-points.aux)
+(./Chap-54-tex/Ribbon-100L-u-histogram-points.aux)
 \c@pagesLTS.arabic.1.local.cnt=\count407
 )
 \openout1 = `main-12-Report-Latex-PhD.aux'.
@@ -3791,10 +3791,10 @@ h54/Img-FC40-Error-Per-Unit-Length-All-Parametric-Curves.png>]
 (./Chapter-54-Histogram-of-Interpolated-Points.tex) [111
 
 ]
-\openout2 = `./Chap-54-tex/Teardrop-interpolated-points.aux'.
+\openout2 = `./Chap-54-tex/Teardrop-u-histogram-points.aux'.
 
 
-(./Chap-54-tex/Teardrop-interpolated-points.tex
+(./Chap-54-tex/Teardrop-u-histogram-points.tex
 <./07-images/img-Ch54/Img-01-Teardrop-u-histogram.png, id=1886, 731.73375pt x 7
 55.82375pt>
 File: ./07-images/img-Ch54/Img-01-Teardrop-u-histogram.png Graphic file (type p
@@ -3806,9 +3806,9 @@ used on input line 6.
 ) [112
 
  <./07-images/img-Ch54/Img-01-Teardrop-u-histogram.png>]
-\openout2 = `./Chap-54-tex/Butterfly-interpolated-points.aux'.
+\openout2 = `./Chap-54-tex/Butterfly-u-histogram-points.aux'.
 
- (./Chap-54-tex/Butterfly-interpolated-points.tex
+ (./Chap-54-tex/Butterfly-u-histogram-points.tex
 <./07-images/img-Ch54/Img-02-Butterfly-u-histogram.png, id=1893, 738.76pt x 752
 .8125pt>
 File: ./07-images/img-Ch54/Img-02-Butterfly-u-histogram.png Graphic file (type 
@@ -3817,14 +3817,15 @@ png)
 Package pdftex.def Info: ./07-images/img-Ch54/Img-02-Butterfly-u-histogram.png 
  used on input line 6.
 (pdftex.def)             Requested size: 446.2658pt x 454.758pt.
-) [113
+)
+[113
 
 
  <./07-images/img-Ch54/Img-02-Butterfly-u-histogram.png>]
-\openout2 = `./Chap-54-tex/Ellipse-interpolated-points.aux'.
+\openout2 = `./Chap-54-tex/Ellipse-u-histogram-points.aux'.
 
 
-(./Chap-54-tex/Ellipse-interpolated-points.tex
+(./Chap-54-tex/Ellipse-u-histogram-points.tex
 <./07-images/img-Ch54/Img-03-Ellipse-u-histogram.png, id=1900, 735.74875pt x 75
 4.82pt>
 File: ./07-images/img-Ch54/Img-03-Ellipse-u-histogram.png Graphic file (type pn
@@ -3837,10 +3838,10 @@ sed on input line 6.
 
 
  <./07-images/img-Ch54/Img-03-Ellipse-u-histogram.png>]
-\openout2 = `./Chap-54-tex/Skewed-Astroid-interpolated-points.aux'.
+\openout2 = `./Chap-54-tex/Skewed-Astroid-u-histogram-points.aux'.
 
 
-(./Chap-54-tex/Skewed-Astroid-interpolated-points.tex
+(./Chap-54-tex/Skewed-Astroid-u-histogram-points.tex
 <./07-images/img-Ch54/Img-04-Skewed-Astroid-u-histogram.png, id=1908, 765.86125
 pt x 751.80875pt>
 File: ./07-images/img-Ch54/Img-04-Skewed-Astroid-u-histogram.png Graphic file (
@@ -3853,10 +3854,10 @@ Package pdftex.def Info: ./07-images/img-Ch54/Img-04-Skewed-Astroid-u-histogram
 
 
  <./07-images/img-Ch54/Img-04-Skewed-Astroid-u-histogram.png>]
-\openout2 = `./Chap-54-tex/Circle-interpolated-points.aux'.
+\openout2 = `./Chap-54-tex/Circle-u-histogram-points.aux'.
 
 
-(./Chap-54-tex/Circle-interpolated-points.tex
+(./Chap-54-tex/Circle-u-histogram-points.tex
 <./07-images/img-Ch54/Img-05-Circle-u-histogram.png, id=1915, 754.82pt x 760.84
 25pt>
 File: ./07-images/img-Ch54/Img-05-Circle-u-histogram.png Graphic file (type png
@@ -3869,9 +3870,9 @@ ed on input line 6.
 
 
  <./07-images/img-Ch54/Img-05-Circle-u-histogram.png>]
-\openout2 = `./Chap-54-tex/AstEpi-interpolated-points.aux'.
+\openout2 = `./Chap-54-tex/AstEpi-u-histogram-points.aux'.
 
- (./Chap-54-tex/AstEpi-interpolated-points.tex
+ (./Chap-54-tex/AstEpi-u-histogram-points.tex
 <./07-images/img-Ch54/Img-06-AstEpi-u-histogram.png, id=1922, 772.8875pt x 752.
 8125pt>
 File: ./07-images/img-Ch54/Img-06-AstEpi-u-histogram.png Graphic file (type png
@@ -3885,10 +3886,10 @@ ed on input line 6.
 
 
  <./07-images/img-Ch54/Img-06-AstEpi-u-histogram.png>]
-\openout2 = `./Chap-54-tex/Snailshell-interpolated-points.aux'.
+\openout2 = `./Chap-54-tex/Snailshell-u-histogram-points.aux'.
 
 
-(./Chap-54-tex/Snailshell-interpolated-points.tex
+(./Chap-54-tex/Snailshell-u-histogram-points.tex
 <./07-images/img-Ch54/Img-07-Snailshell-u-histogram.png, id=1929, 748.7975pt x 
 756.8275pt>
 File: ./07-images/img-Ch54/Img-07-Snailshell-u-histogram.png Graphic file (type
@@ -3901,10 +3902,9 @@ Package pdftex.def Info: ./07-images/img-Ch54/Img-07-Snailshell-u-histogram.png
 
 
  <./07-images/img-Ch54/Img-07-Snailshell-u-histogram.png>]
-\openout2 = `./Chap-54-tex/SnaHyp-interpolated-points.aux'.
+\openout2 = `./Chap-54-tex/SnaHyp-u-histogram-points.aux'.
 
-
-(./Chap-54-tex/SnaHyp-interpolated-points.tex
+ (./Chap-54-tex/SnaHyp-u-histogram-points.tex
 <./07-images/img-Ch54/Img-08-SnaHyp-u-histogram.png, id=1936, 776.9025pt x 752.
 8125pt>
 File: ./07-images/img-Ch54/Img-08-SnaHyp-u-histogram.png Graphic file (type png
@@ -3917,9 +3917,10 @@ ed on input line 6.
 
 
  <./07-images/img-Ch54/Img-08-SnaHyp-u-histogram.png>]
-\openout2 = `./Chap-54-tex/Ribbon-10L-interpolated-points.aux'.
+\openout2 = `./Chap-54-tex/Ribbon-10L-u-histogram-points.aux'.
 
- (./Chap-54-tex/Ribbon-10L-interpolated-points.tex
+
+(./Chap-54-tex/Ribbon-10L-u-histogram-points.tex
 <./07-images/img-Ch54/Img-09-Ribbon-10L-u-histogram.png, id=1943, 766.865pt x 7
 58.835pt>
 File: ./07-images/img-Ch54/Img-09-Ribbon-10L-u-histogram.png Graphic file (type
@@ -3928,15 +3929,14 @@ File: ./07-images/img-Ch54/Img-09-Ribbon-10L-u-histogram.png Graphic file (type
 Package pdftex.def Info: ./07-images/img-Ch54/Img-09-Ribbon-10L-u-histogram.png
   used on input line 6.
 (pdftex.def)             Requested size: 446.2658pt x 441.59514pt.
-)
-[120
+) [120
 
 
  <./07-images/img-Ch54/Img-09-Ribbon-10L-u-histogram.png>]
-\openout2 = `./Chap-54-tex/Ribbon-100L-interpolated-points.aux'.
+\openout2 = `./Chap-54-tex/Ribbon-100L-u-histogram-points.aux'.
 
 
-(./Chap-54-tex/Ribbon-100L-interpolated-points.tex
+(./Chap-54-tex/Ribbon-100L-u-histogram-points.tex
 <./07-images/img-Ch54/Img-10-Ribbon-100L-u-histogram.png, id=1951, 765.86125pt 
 x 753.81625pt>
 File: ./07-images/img-Ch54/Img-10-Ribbon-100L-u-histogram.png Graphic file (typ
@@ -3949,7 +3949,8 @@ g  used on input line 6.
 
 
  <./07-images/img-Ch54/Img-10-Ribbon-100L-u-histogram.png>] (./Chapter-55-Exper
-imental-Validation.tex) (./Chapter-6-Analyses-and-Discussion.tex [122
+imental-Validation.tex)
+(./Chapter-6-Analyses-and-Discussion.tex [122
 
 ]
 Chapter 6.
@@ -4015,21 +4016,21 @@ Package pageslts Info: Total number of pages is even.
 (./Chap-54-tex/FC25-Error-per-unit-length-traversed.aux)
 (./Chap-54-tex/FC30-Error-per-unit-length-traversed.aux)
 (./Chap-54-tex/FC40-Error-per-unit-length-traversed.aux)
-(./Chap-54-tex/Teardrop-interpolated-points.aux)
-(./Chap-54-tex/Butterfly-interpolated-points.aux)
-(./Chap-54-tex/Ellipse-interpolated-points.aux)
-(./Chap-54-tex/Skewed-Astroid-interpolated-points.aux)
-(./Chap-54-tex/Circle-interpolated-points.aux)
-(./Chap-54-tex/AstEpi-interpolated-points.aux)
-(./Chap-54-tex/Snailshell-interpolated-points.aux)
-(./Chap-54-tex/SnaHyp-interpolated-points.aux)
-(./Chap-54-tex/Ribbon-10L-interpolated-points.aux)
-(./Chap-54-tex/Ribbon-100L-interpolated-points.aux))
+(./Chap-54-tex/Teardrop-u-histogram-points.aux)
+(./Chap-54-tex/Butterfly-u-histogram-points.aux)
+(./Chap-54-tex/Ellipse-u-histogram-points.aux)
+(./Chap-54-tex/Skewed-Astroid-u-histogram-points.aux)
+(./Chap-54-tex/Circle-u-histogram-points.aux)
+(./Chap-54-tex/AstEpi-u-histogram-points.aux)
+(./Chap-54-tex/Snailshell-u-histogram-points.aux)
+(./Chap-54-tex/SnaHyp-u-histogram-points.aux)
+(./Chap-54-tex/Ribbon-10L-u-histogram-points.aux)
+(./Chap-54-tex/Ribbon-100L-u-histogram-points.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 455.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 455.
 Package rerunfilecheck Info: File `main-12-Report-Latex-PhD.out' has not change
 d.
-(rerunfilecheck)             Checksum: D60B172D08CD86565E9CA9E60DAA91D5;12269.
+(rerunfilecheck)             Checksum: D34A077638A5E712642F6E63AFA5042B;12239.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -4041,8 +4042,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 455.
  ) 
 Here is how much of TeX's memory you used:
  52868 strings out of 483056
- 1212973 string characters out of 5963250
- 1793026 words of memory out of 5000000
+ 1212833 string characters out of 5963250
+ 1792996 words of memory out of 5000000
  66068 multiletter control sequences out of 15000+600000
  541373 words of font info for 58 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
@@ -4059,7 +4060,7 @@ ts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type
 /amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti12.pfb>
-Output written on main-12-Report-Latex-PhD.pdf (126 pages, 3347918 bytes).
+Output written on main-12-Report-Latex-PhD.pdf (126 pages, 3356540 bytes).
 PDF statistics:
  2128 PDF objects out of 2487 (max. 8388607)
  1831 compressed objects within 19 object streams
