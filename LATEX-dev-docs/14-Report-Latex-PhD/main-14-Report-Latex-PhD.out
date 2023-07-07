@@ -1,0 +1,82 @@
+\BOOKMARK [0][-]{section*.1}{Cover Page}{}% 1
+\BOOKMARK [0][-]{section*.3}{Table of Contents}{}% 2
+\BOOKMARK [0][-]{chapter*.4}{Contents}{}% 3
+\BOOKMARK [0][-]{chapter*.6}{List of Tables}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Progress Report}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{Constraints}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{Brief of the algorithm design}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.5}{Important notes}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.6}{Report Summary}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{Simulation Experiment}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Parametric Curves}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.1.1}{Teardrop parametric equation}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.2}{Butterfly parametric equation}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.3}{Ellipse parametric equation}{section.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.1.4}{Skewed-Astroid parametric equation}{section.2.1}% 17
+\BOOKMARK [2][-]{subsection.2.1.5}{Circle parametric equation}{section.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.1.6}{AstEpi parametric equation}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.7}{Snailshell parametric equation}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.8}{SnaHyp parametric equation}{section.2.1}% 21
+\BOOKMARK [2][-]{subsection.2.1.9}{Ribbon-10L parametric equation}{section.2.1}% 22
+\BOOKMARK [2][-]{subsection.2.1.10}{Ribbon-100L parametric equation}{section.2.1}% 23
+\BOOKMARK [1][-]{section.2.2}{Total Interpolated Points}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.1}{Teardrop profile of interpolated points}{section.2.2}% 25
+\BOOKMARK [2][-]{subsection.2.2.2}{Butterfly profile of interpolated points}{section.2.2}% 26
+\BOOKMARK [2][-]{subsection.2.2.3}{Ellipse profile of interpolated points}{section.2.2}% 27
+\BOOKMARK [2][-]{subsection.2.2.4}{Skewed-Astroid profile of interpolated points}{section.2.2}% 28
+\BOOKMARK [2][-]{subsection.2.2.5}{Circle profile of interpolated points}{section.2.2}% 29
+\BOOKMARK [2][-]{subsection.2.2.6}{Astroid-Epicycloid profile of interpolated points}{section.2.2}% 30
+\BOOKMARK [2][-]{subsection.2.2.7}{Snailshell-Hypotrocoid profile of interpolated points}{section.2.2}% 31
+\BOOKMARK [2][-]{subsection.2.2.8}{Snailshell profile of interpolated points}{section.2.2}% 32
+\BOOKMARK [2][-]{subsection.2.2.9}{Ribbon-10L profile of interpolated points}{section.2.2}% 33
+\BOOKMARK [2][-]{subsection.2.2.10}{Ribbon-100L profile of interpolated points}{section.2.2}% 34
+\BOOKMARK [1][-]{section.2.3}{Experimental Run Results}{chapter.2}% 35
+\BOOKMARK [2][-]{subsection.2.3.1}{Teardrop and Butterfly Run Data}{section.2.3}% 36
+\BOOKMARK [2][-]{subsection.2.3.2}{Ellipse and Skewed-Astroid Run Data}{section.2.3}% 37
+\BOOKMARK [2][-]{subsection.2.3.3}{Circle and Astepi Run Data}{section.2.3}% 38
+\BOOKMARK [2][-]{subsection.2.3.4}{Snailshell and SnaHyp Run Data}{section.2.3}% 39
+\BOOKMARK [2][-]{subsection.2.3.5}{Ribbon-10L and Ribbon-100L Run Data}{section.2.3}% 40
+\BOOKMARK [1][-]{section.2.4}{Results Feedrate Profile}{chapter.2}% 41
+\BOOKMARK [2][-]{subsection.2.4.1}{Teardrop FC20 u versus x-y-curr feedrate profile}{section.2.4}% 42
+\BOOKMARK [2][-]{subsection.2.4.2}{Teardrop FC20 x-y and colored feedrate profile}{section.2.4}% 43
+\BOOKMARK [2][-]{subsection.2.4.3}{Butterfly FC20 u versus x-y-curr feedrate profile}{section.2.4}% 44
+\BOOKMARK [2][-]{subsection.2.4.4}{Butterfly FC20 x-y and colored feedrate profile}{section.2.4}% 45
+\BOOKMARK [2][-]{subsection.2.4.5}{Ellipse FC20 u versus x-y-curr feedrate profile}{section.2.4}% 46
+\BOOKMARK [2][-]{subsection.2.4.6}{Ellipse FC20 x-y and colored feedrate profile}{section.2.4}% 47
+\BOOKMARK [2][-]{subsection.2.4.7}{Skewed-Astroid FC20 u versus x-y-curr feedrate profile}{section.2.4}% 48
+\BOOKMARK [2][-]{subsection.2.4.8}{Skewed-Astroid FC20 x-y and colored feedrate profile}{section.2.4}% 49
+\BOOKMARK [2][-]{subsection.2.4.9}{Circle FC20 u versus x-y-curr feedrate profile}{section.2.4}% 50
+\BOOKMARK [2][-]{subsection.2.4.10}{Circle FC20 x-y and colored feedrate profile}{section.2.4}% 51
+\BOOKMARK [2][-]{subsection.2.4.11}{AstEpi FC20 u versus x-y-curr feedrate profile}{section.2.4}% 52
+\BOOKMARK [2][-]{subsection.2.4.12}{AstEpi FC20 x-y and colored feedrate profile}{section.2.4}% 53
+\BOOKMARK [2][-]{subsection.2.4.13}{Snailshell FC20 u versus x-y-curr feedrate profile}{section.2.4}% 54
+\BOOKMARK [2][-]{subsection.2.4.14}{Snailshell FC20 x-y and colored feedrate profile}{section.2.4}% 55
+\BOOKMARK [2][-]{subsection.2.4.15}{SnaHyp FC20 u versus x-y-curr feedrate profile}{section.2.4}% 56
+\BOOKMARK [2][-]{subsection.2.4.16}{SnaHyp FC20 x-y and colored feedrate profile}{section.2.4}% 57
+\BOOKMARK [2][-]{subsection.2.4.17}{Ribbon-10L FC20 u versus x-y-curr feedrate profile}{section.2.4}% 58
+\BOOKMARK [2][-]{subsection.2.4.18}{Ribbon-10L FC20 x-y and colored feedrate profile}{section.2.4}% 59
+\BOOKMARK [2][-]{subsection.2.4.19}{Ribbon-100L FC20 u versus x-y-curr feedrate profile}{section.2.4}% 60
+\BOOKMARK [2][-]{subsection.2.4.20}{Ribbon-100L FC20 x-y and colored feedrate profile}{section.2.4}% 61
+\BOOKMARK [1][-]{section.2.5}{Error per unit length traversed}{chapter.2}% 62
+\BOOKMARK [2][-]{subsection.2.5.1}{FC10 - Error per unit length traversed}{section.2.5}% 63
+\BOOKMARK [2][-]{subsection.2.5.2}{FC20 - Error per unit length traversed}{section.2.5}% 64
+\BOOKMARK [2][-]{subsection.2.5.3}{FC25 - Error per unit length traversed}{section.2.5}% 65
+\BOOKMARK [2][-]{subsection.2.5.4}{FC30 - Error per unit length traversed}{section.2.5}% 66
+\BOOKMARK [2][-]{subsection.2.5.5}{FC40 - Error per unit length traversed}{section.2.5}% 67
+\BOOKMARK [1][-]{section.2.6}{Histogram of Interpolated Points}{chapter.2}% 68
+\BOOKMARK [2][-]{subsection.2.6.1}{Teardrop histogram of interpolated points}{section.2.6}% 69
+\BOOKMARK [2][-]{subsection.2.6.2}{Butterfly histogram of interpolated points}{section.2.6}% 70
+\BOOKMARK [2][-]{subsection.2.6.3}{Ellipse histogram of interpolated points}{section.2.6}% 71
+\BOOKMARK [2][-]{subsection.2.6.4}{Skewed-Astroid histogram of interpolated points}{section.2.6}% 72
+\BOOKMARK [2][-]{subsection.2.6.5}{Circle histogram of interpolated points}{section.2.6}% 73
+\BOOKMARK [2][-]{subsection.2.6.6}{AstEpi histogram of interpolated points}{section.2.6}% 74
+\BOOKMARK [2][-]{subsection.2.6.7}{Snailshell histogram of interpolated points}{section.2.6}% 75
+\BOOKMARK [2][-]{subsection.2.6.8}{SnaHyp histogram of interpolated points}{section.2.6}% 76
+\BOOKMARK [2][-]{subsection.2.6.9}{Ribbon-10L histogram of interpolated points}{section.2.6}% 77
+\BOOKMARK [2][-]{subsection.2.6.10}{Ribbon-100L histogram of interpolated points}{section.2.6}% 78
+\BOOKMARK [1][-]{section.2.7}{Experimental Validation}{chapter.2}% 79
+\BOOKMARK [0][-]{chapter.3}{Analyses and Discussion}{}% 80
+\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 81
+\BOOKMARK [0][-]{appendix.A}{Appendices}{}% 82

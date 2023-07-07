@@ -1,0 +1,157 @@
+\justifying
+\noindent
+
+\section{Introduction}
+
+A majority of CNC systems today supports parametric interpolation because of its various advantages over traditional linear and circular  interpolations. The linear interpolator (G01) and the circular interpolator (G02, G03) are the only interpolators defined in the RS274 standard. \footnote{The RS274/NGC Interpreter is a software system that reads numerical control code in the "NGC" dialect of the RS274 numerical control language and produces calls to a set of canonical machining functions. The output of the Interpreter can be used to drive machining centers with three to six axes.}
+\vspace*{1\baselineskip}
+
+There are many merits of parametric interpolation over the traditional linear and circular interpolation, specifically in terms of the model representation, feedrate smoothness and application range. One of the major difficulties of parametric interpolation is the feedrate determination that satisfies geometrical constraints and kinematical characteristics of machine tools. 
+\vspace*{1\baselineskip}
+
+Parametric interpolation is conducted as a point-to-point (PTP) movement in a CNC machine. At the end of each motion it is important that the positional accuracy of the tool relative to the workpiece is achieved, that is, within a specified tolerance. At the end of each motion, the tool performs its required task after which the next motion begins and the cycle repeats until all machining is completed. 
+\vspace*{1\baselineskip}
+
+In CNC machine operation, the function of interpolation is to generate coordinated movements to drive the separate axis-of-motions in order to achieve the desired path of the CNC cutting tool relative to the workpiece. Essentially, interpolation generates commands that moves motor drives to follow the desired path or trajectory to produce the physical part that is to be machined. 
+\vspace*{1\baselineskip}
+
+Generally, the contour error is a measure of how close the actual tool path is to the desired tool path. For a two-dimensional parametric curve, the point-to-point movement turns the contour error (positional accuracy) to become the chord-error. This is the error between two interpolated points.
+\vspace*{1\baselineskip}
+
+
+
+
+\pagebreak
+\section{Progress Report}
+
+This work covers the realtime interpolation of parametric curves with chord-error and feedrate constraints. An interpolation algorithm was developed and tested for ten(10) 2D parametric curves of diverse characteristics.    
+\vspace*{1\baselineskip}
+
+The curves were selected based on characteristics like closed loop curves, open ended curves, symmetric or non-symmetric about the x-axis and y-axis. Some curves have concave or convex turns. In addition, the x and y dimensions (overall sizes) vary among the different curves.
+\vspace*{1\baselineskip}
+
+The parametric equations for the curves are described in terms of x(u), and y(u) where u is an independent parameter limited to
+\begin{equation}
+	u  \in  [0.0, 1.0] \nonumber
+\end{equation}
+
+The parametric curves covered in this work are:
+\begin{enumerate}
+	\item Teardrop
+	\item Butterfly
+	\item Ellipse
+	\item Skewed-Astroid
+	\item Circle
+	\item AstEpi = Astroid + Epicycloid combination
+	\item Snailshell
+	\item SnaHyp = Snailshell + Hypotrocoid combination
+	\item Ribbon-10L
+	\item Ribbon-100L = 10 times scaleup of Ribbon-10L
+\end{enumerate}
+
+\section{Constraints}
+
+The parametric curve interpolation algorithm was develop to obey the following constraints:
+\begin{enumerate}
+\item \textbf{(C1)} Absolute constraint not to exceed the user feedrate command, example FC20 (20 mm/s),
+\item \textbf{(C2)} Constrain the feedrate to stay within the velocity range (min, max) allowable for the CNC machine, 
+\item \textbf{(C3)} Constrain the feedrate to have chord error eps(u) absolutely below tolerance (1E-6) mm, as it tracks the curve trajectory.
+\item \textbf{(C4)} Constrain the feedrate such that the normal acceleration (not tangential) stay within the acceleration range (min, max) allowable for the CNC machine.
+\end{enumerate}
+
+\pagebreak
+\section{Brief of the algorithm design}
+
+This interpolation algorithm is executed as a point-to-point traversal of the parametric curve. 
+
+\begin{enumerate}
+	\item \textbf{Step 1} Start at u = 0.0 
+	
+	\item \textbf{Step 2} Based on the parametric equations, calculate the following functions:
+	
+	\begin{enumerate}
+	    \item x(u), y(u), dx(u)/du, dy(u)/du, d2x(u)/du2, d2y(u)/du2
+	    \item evaluate the functions at current point u
+	    \item ensure that the second order derivatives exist and are non zero
+	\end{enumerate}
+		
+	\item \textbf{Step 3} Calculate the next interpolated point (u-next), using the second order Taylor's approximation
+	 
+	\item \textbf{Step 4} Calculate the feedrate limit (the minimum of 4 limits below):
+	\begin{enumerate}
+		\item limit 1 based on user provided feedrate command (FC)
+		\item limit 2 based on the allowable velocity range (min, max) allowable for the CNC machine
+		\item limit 3 based on the allowable acceleration (min, max) and jerk allowable for the CNC machine
+		\item limit 4 based on chord-error constraint (epsilon, max error tolerance) for the curve trajectory
+	\end{enumerate}
+	
+	\item \textbf{Step 5} Calculate the current feedrate
+	
+	\item \textbf{Step 6} If current feedrate is below feedrate limit,
+	\begin{enumerate}
+		\item  (6.1) increase current feedrate by adjusting delta, to very near but below feedrate limit
+		\item  (6.2) calculate the chord-error (epsilon) with the newly adjusted current feedrate
+		\item  (6.3) iterate delta in steps 6.1 and 6.2 until current feedrate is just below feedrate limit and chord-error is below tolerance
+		\item  (6.4) on convergence of step 6.3, get the current feedrate 
+		\item  (6.5) on convergence of step 6.3, use the current feedrate to calculate the next interpolated point (u-next)    
+	\end{enumerate}
+
+    \item \textbf{Step 7} If current feedrate is above feedrate limit,
+    \begin{enumerate}
+	\item  (7.1) decrease current feedrate by adjusting delta, to very near and below feedrate limit
+	\item  (7.2) calculate the chord-error (epsilon) with the newly adjusted current feedrate
+	\item  (7.3) iterate delta in steps 7.1 and 7.2 until current feedrate is just below feedrate limit and chord-error is below tolerance
+	\item  (7.4) on convergence of step 7.3, get the current feedrate 
+	\item  (7.5) on convergence of step 7.3, use the current feedrate to calculate the next interpolated point (u-next)    
+    \end{enumerate}
+	
+	\item \textbf{Step 8} Upon completion of either one of Step 6 or Step 7, we now have the next interpolated point (u-next). This value must be positive to move forward.
+	\item \textbf{Step 9} Recheck that the epsilon for the new chord (u, u + u-next) is below the chord error tolerance. 
+	\item \textbf{Step 10} Increment u by u-next, that is (u = u + u-next). Go back to Step 2 with the new value of u.
+	
+	\item \textbf{Step 11} Repeat Step 2 through Step 10, for the next interpolated point until the value of u = 1.0. 
+
+\end{enumerate}
+
+\section{Important notes}
+
+It is important to note that for tracking and monitoring of correct algorithm execution, various important calculated values are captured and stored into appropriate data files. These text data files are used in generating important plots, for example, the feedrate profile  
+ smoothness, the x-axis and y-axis feedrates, x and y positions, the chord-error values, and so on across the entire u parameter range. 
+\vspace*{1\baselineskip}
+
+In addition, not described in the algorithm design above, the RS274/NGC g-code was generated on the fly during the algorithm execution. This provides visual validation that the algorithm executes correctly. The software application LinuxCNC ver 2.8.0 was used to run this g-code.
+\vspace*{1\baselineskip}
+
+The same algorithm was applied to the 10 different parametric curves of different complexities. The results and findings in this report verify the robustness and effectiveness of the parametric curve interpolation algorithm for the entire spectrum of selected parametric curves.
+\vspace*{1\baselineskip}
+
+\pagebreak
+\section{Report Summary}
+
+\begin{enumerate}
+	\item Section 2.1 briefly summarizes the characteristics of selected parametric curves in this work. In subsequent pages, the top region provides the parametric representation of the curves in terms of x(u) and y(u). The lower left figures give the overall x and y sizes of curves. The lower right figures provide the color-coded feedrate profiles as the machine traces the path of the parametric curves.	
+	
+	\item Section 2.2 briefly describes the results on the total number of interpolated points generated by the algorithm for five(5) different user specified feedrate commands (FC10, FC20, FC25, FC30 and FC40). The total number of interpolated points generally decreases as the User Feedrate Command (FC) increases. This means that as you increase the feedrate, you have less interpolated points to cover for the same distance traversed. The algorithm executes in a manner that strictly abides by the four(4) defined constraints, C1, C2, C3 and C4 mentioned earlier.
+	
+	\item Section 2.3 presents tabular results of important variables captured in the execution of the interpolation algorithm. The data are provided in the subsequent pages. The significance of each row item in the data table are explained. For example, Row item 30 - Percentage (Total curve error / Total distance traversed). This percentage is a more meaningful performance parameter for the algorithm. For the different parametric curves, the total curve error varies. For the different user specified feedrate commands FCs, the total curve error varies. However, in both cases the total distance traversed should not vary much (it is the same size parametric curve). This percentage can be expressed in performance like, "the amount of curve error per unit of distance traveled". It is like running speed in meters per second. The running speed is independent of how much distance we run.
+	
+	\item Section 2.4 describes the results of the feedrate profiles for the ten(10) different parametric curves generated by the algorithm. The color-coded feedrate profile is one of the most important validations of the algorithm for parametric curves. Never exceeding the user specified feedrate command - In all cases of parametric curves, the User Feedrate Command FC, was never exceeded by the current feedrate
+	for the entire range of u-points. Smoothness in feedrates - the x-axis and y-axis feedrates displayed smoothness for the entire range of u-points. Color-coded feedrate transitions - When the parametric curve is being displayed using the feedrate color code spectrum for its (x(u),y(u)) points, the path traced shows smoothness in feedrate color transitions
+	
+	\item Section 2.5 covers the chord-error per unit length traversed in the point-to-point parametric curve interpolation algorithm. The error/length - The rightmost column in data tables presented in subsequent pages shows the calculated chord-error per unit length for all parametric curves in this work. User specified Feedrate Command FC - In subsequent pages, five(5) data tables are presented, one each for FC10, FC20, FC25, FC30 and FC40. Also calculated are the chord-error per unit length of all parametric curves in this work. Order magnitude error/length - Notice that the calculated chord-error per unit length for all parametric curves in this work is in the order of 1E-6 and 1E-5, where 1E-6 is the specified chord-error tolerance. This fact is true irrespective of the user specified feedrate command. Histogram for all parametric curves - Also in subsequent pages, five(5) histograms for the calculated chord-error per unit length are presented, one each for the parametric curves in this work.
+	
+	\item Section 2.6 briefly describes the histogram of the total interpolated points for FC10, FC20, FC25, FC30 and FC40, in the point-to-point parametric curve interpolation algorithm for all parametric curves in this work. The histogram are presented in subsequent pages. Histogram x-axis display - The x-axis for the histogram provide the 10-bins for the entire range of u-points from u=0.0 to u=1.0. Histogram y-axis display - The y-axis for the histogram provide the total interpolated points for the five(5) user specified feedrate commands (FC10, FC20, FC25,	FC30 and FC40). Histogram for all parametric curves - In subsequent pages, ten(10) histograms for the total interpolated points are presented, one each for the parametric curves in this work. Correct expectation - As expected, the general trend is that the total interpolated points decreases as the user specified feedrate command increases. Essentially the chord length grew longer as the feedrate is increased. Constraints - It is important to note that in all cases, the four(4) mandatory algorithm constraints C1, C2, C3 and C4 specified in Section 1.3 Constraints, are never compromised.
+	
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+

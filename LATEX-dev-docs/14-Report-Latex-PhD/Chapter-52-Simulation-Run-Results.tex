@@ -1,0 +1,58 @@
+
+\section{Experimental Run Results}
+
+This section covers the tabular results of important variables captured in the execution of the algorithm. The data are provided in the subsequent pages. We explain below the significance of row items in the data table.
+
+\begin{enumerate}
+	\item \textbf{Row item 1} - Run user feedrate command (mm/s).\\
+	This is the user specified feedrate command (FC10, FC20, FCC25, FC30, FC40).\\
+	The current feedrate will never exceed this specified feedrate command.\\
+	
+	\item \textbf{Row item 2} - Total interpolated u-points.\\
+	This is the result of the execution of the algorithm execution.\\
+	
+	\item \textbf{Row item 3} - Parameter completion (reached u-end).\\
+	If at the end of execution u reaches u = 1.0, then the algorithm completed normally.\\ 
+	
+	\item \textbf{Row item 4} - Count before pushdown, eps(u) is already below (1E-6).\\
+	This is the number of interpolated points counted where the chord-error (epsilon at u) is already below the error tolerance (1E-6) and does not need to be reduced further.\\
+		
+	\item \textbf{Row item 5} - Count chord-error pushdown points, eps(u) to below (1E-6).\\
+	This is the number of interpolated points counted where the chord-error (epsilon at u) is above error tolerance (1E-6) and must be reduced to just below tolerance. See the convergence criteria in Step (6.3) and Step (7.3) in the Section 1.3 Brief of algorithm design.
+	As a check, note that the sum of Row item 4 and Row item 5 equals the total interpolated u-points (Row item 2).\\
+	
+	\item \textbf{Row item 6 through Row item 11} - This set of rows displays the distribution of interpolated points that fall within the chord-error range (epsilon at u) after completion of the algorithm execution.
+	Similarly, the sum of row item 6 through row item 11 also equals the total interpolated u-points (Row item 2).\\
+	
+	\item \textbf{Row item 12} - Count\_rising\_S\_curve u-points\\ 
+	This is the number of interpolated points that falls in the region of the gradual rising feedrate S\_curve specified by the user. The feedrate does not increase and jump instantly.\\
+	
+	\item \textbf{Row item 13 through Row item 15} - This set of rows displays the distribution of interpolated points where current feedrate is compared to the feedrate limit evaluated at the specific u-point. \\ 
+	When the current feedrate is lower than the feedrate limit, the current feedrate is pushed up (See Step 6 in the Section 1.3 Brief of algorithm design).When the current feedrate is higher than the feedrate limit, the current feedrate is pushed down (See Step 7 in the Section 1.3 Brief of algorithm design). Note that by design, at algorithm execution completion, all current feedrate values are below their respective feedrate limits.\\ 
+	
+	\item \textbf{Row item 14} - There are no interpolated points at u where the calculated current feedrate limit is exactly matching the calculated feedrate limit. This is expected because in computation when values are declared in fixed scientific "doubles" representation, calculated values cannot be compared in "exact equality" terms because of precision. The standard practice is to only compare using "less than" (in the case of Row item 13) or "greater than" (in the case of Row item 15)".\\
+	
+	\item \textbf{Row item 16} - Count\_falling\_S\_curve u-points.\\ 
+	This is the number of interpolated points that falls in the region of the gradual falling feedrate S\_curve specified by the user. The feedrate does not decrease instantly.\\
+	
+	\item \textbf{Row item 17 through Row item 26} - This set of rows displays the histogram distribution of u-points divided into 10-equal bin sizes from u=0.0 to u=1.0. The histogram provides the distribution comparisons when the user specified feedrate command varies, that is, for FC10, FC20, FC25, FC30 and FC40. We can see that as expected, when FC increases the number of u-points decreases in the respective bins.\\ 
+	
+	\item \textbf{Row item 27} - Check Total u-points.\\ 
+	Again, this is a sum check that the total u-points in the histogram is equal to the Total interpolated u-points, as in Row item 2. \\  
+	
+	
+	\item \textbf{Row item 28 through Row item 30} - This is considered the algorithm performance criteria.\\
+	
+	\item \textbf{Row item 28} - Total curve error (sum of epsilon(u)).\\
+	The total curve chord-error is the sum of all computed epsilon(u) for the entire u-point range. Note that the total number of u-points (total interpolated points) varies for the different user specified feedrate commands, FC10, FC20, FC25, FC30 and FC40.\\ 
+	
+	\item \textbf{Row item 29} - Total distance traversed (sum of chord lengths).\\
+	The total curve distance traversed is the sum of all computed chord lengths at each u-point for the entire u-point range. Note that the total  curve distance traversed varies for the different parametric curves (different dimension x and y curve sizes, number of loops, and so on).\\ 
+	
+	\item \textbf{Row item 30} - Percentage (Total curve error / Total distance traversed). \\
+	This percentage is a more meaningful performance parameter for the algorithm. For the different parametric curves, the total curve error varies. For the different user specified feedrate commands, the total curve error varies. However, in both cases the total distance traversed should not vary much (it is the same parametric curve size). This percentage can be expressed in performance like, "the amount of curve error per unit of distance traveled". It is like running speed in meters per second. The running speed is independent of how much distance we run. \\  
+	
+\end{enumerate}
+
+
+

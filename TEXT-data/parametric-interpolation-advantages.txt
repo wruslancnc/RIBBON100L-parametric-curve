@@ -1,0 +1,40 @@
+
+A fine-interpolation-based parametric interpolation method with a
+novel real-time look-ahead algorithm
+Yu-an Jin, Yong He ∗ , Jian-zhong Fu, Zhi-wei Lin, Wen-feng Gan
+The State Key Lab of Fluid Power Transmission and Control Systems, Department of Mechanical Engineering, Zhejiang University, Hangzhou 310027, China
+
+Computer Aided Design, Computer-Aided Design 55 (2014) 37–48
+
+=======================================
+
+Parametric interpolation owns many merits over the traditional linear and circular interpolation in terms of the model representation, feedrate smoothness and application range [1–4].
+
+(a) The geometrical information of the machining contours can be totally as well as accurately transferred to the CNC systems without any approximation errors and data loss that may occur in the linear and circular interpolation.
+
+
+(b) Parametric interpolator only needs some critical parameters of the machining contours (i.e. control points, knot vectors, weights), such a transmission mechanism can guarantee the efficiency of interaction between the host and the slave.
+
+(c) Feedrate continuity is achieved effectively as the junctions between tiny segments in traditional interpolation methods which require repeated acceleration - deceleration processes are avoided.
+
+(d) Parametric interpolation can still be used in the conventional CNC systems after some developments of the machining segments, such as approximating tiny parts into curves or transitional optimization with parametric curves between them.
+
+
+
+=============================== REFERENCES =====================
+[1] Yeh S-S, Hsu P-L. Adaptive-feedrate interpolation for parametric curves with
+a confined chord error. Comput Aided Des 2002;34(3):229–37.
+
+[2] Zhao H, Zhu LM, Ding H. A real-time look-ahead interpolation methodology
+with curvature-continuous B-spline transition scheme for CNC machining of
+short line segments. Int J Mach Tools Manuf 2013;65:88–98.
+
+[3] Yau H-T, Wang J-B. Fast Bezier interpolator with real-time lookahead function
+for high-accuracy machining.. Int J Mach Tools Manuf 2007;47(10):1518–29.
+
+[4] Baek D-K, Ko T-J, Yang S-H. Fast and precision NURBS interpolator for CNC
+systems. Int J Precis Eng Manuf 2012;13(6):955–61.
+
+
+
+
